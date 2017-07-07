@@ -16,3 +16,4 @@ block_time: 600
 block_size: 1MB
 anonymous: no
 whitepaper: https://bitcoin.org/bitcoin.pdf
+tx_per_second: 7
