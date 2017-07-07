@@ -14,4 +14,4 @@ block_time: <num>
 block_size: <size>
 anonymous: <yes|no>
 whitepaper: <url>
-tx_per_second <num>
+tx_per_second: <num>
