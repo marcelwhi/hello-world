@@ -4,3 +4,4 @@
 *.orig
 *.egg-info/
 /var/
+/.cache/
