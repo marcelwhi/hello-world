@@ -13,8 +13,9 @@ pull requests to change existing coins or add new coins.
 How to add new coin
 -------------------
 
-Copy `coin_template.yml <coin_template.yml>`_ and name it with coin name. Use common coin name,
-do not lowercase all letters, use underscore instead of space.
+Copy `coin_template.yml <coin_template.yml>`_ to coin/ directory and name it
+with coin name. Use common coin name, do not lowercase all letters, use
+underscore instead of space.
 
 Good names:
 
@@ -54,11 +55,12 @@ Conventions
 Numbers could be specified in short form using suffixes K (thousands)
 and M (millions) e.g. 21M equals to 21000000
 
-For values of `block_key` key the suffixes are KB (kilobytes) and MB (megabytes).
+For values of `block_key` key the suffixes are KB (kilobytes) and
+MB (megabytes).
 
 For boolean keys like `anonymous` the "yes" and "no" values must be used.
 
 Coins
 -----
 
-* `Bitcoin <Bitcoin.yml>`_
+* `Bitcoin <coin/Bitcoin.yml>`_
