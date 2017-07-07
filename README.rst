@@ -37,9 +37,6 @@ keys, just put "?" string e.g.:
 
     tx_per_second: "?"
 
-If the property could not be applied to the coin e.g. masternode_supply for
-Etherium, set the value to "NA".
-
 There could be multiple values for keys `website`, `explorer` and
 `message_board`. In such case use key with numeric suffix e.g.
 `website2`, `website3`, etc. Do not use suffix 1 for first item.
@@ -60,10 +57,18 @@ Conventions
 Numbers could be specified in short form using suffixes K (thousands)
 and M (millions) e.g. 21M equals to 21000000
 
-For values of `block_key` key the suffixes are KB (kilobytes) and
+For `block_key` property the suffixes are KB (kilobytes) and
 MB (megabytes).
 
-For boolean keys like `anonymous` the "yes" and "no" values must be used.
+For boolean properties like `anonymous` the "yes" and "no" values must be used.
+
+If the property could not be applied to the coin e.g. `masternode_supply` for
+Etherium, set the value to "NA".
+
+If the value is unlimited use `Inf` literal e.g.:
+
+    max_supply: Inf
+
 
 Coins
 -----
