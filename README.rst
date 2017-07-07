@@ -34,9 +34,10 @@ Edit the new file and fill all coin propertes you know. If you do knot know or
 do not understand some properties just keep them blank. Do not delete keys,
 just keep them blank.
 
-There could be multiple values for keys website, explorer and message_board. In
-such case use key with numeric suffix e.g. website2, website3, etc. Do not use
-suffix 1 for first item. The key website is correct, website1 is incorrect.
+There could be multiple values for keys `website`, `explorer` and
+`message_board`. In such case use key with numeric suffix e.g.
+`website2`, `website3`, etc. Do not use suffix 1 for first item.
+The key `website` is correct, `website1` is incorrect.
 
 The required minimum set of non-blank properties to add new coin is:
 
@@ -46,6 +47,16 @@ The required minimum set of non-blank properties to add new coin is:
 
 Add link to new coin file to README.rst. List of coins are sorted in alphabetic
 order.
+
+Conventions
+-----------
+
+Numbers could be specified in short form using suffixes K (thousands)
+and M (millions) e.g. 21M equals to 21000000
+
+For values of `block_key` key the suffixes are KB (kilobytes) and MB (megabytes).
+
+For boolean keys like `anonymous` the "yes" and "no" values must be used.
 
 Coins
 -----
