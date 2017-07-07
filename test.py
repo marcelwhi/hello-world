@@ -28,6 +28,7 @@ TEMPLATE_KEYS = [
     'core_lang',
     'masternode',
     'masternode_supply',
+    'smart_contracts',
 ]
 
 def test_coin_names():

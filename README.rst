@@ -32,8 +32,13 @@ Bad names:
 * idice.yml
 
 Edit the new file and fill all coin propertes you know. If you do knot know or
-do not understand some properties just keep them blank. Do not delete keys,
-just keep them blank.
+do not understand some properties just put "?" string there. Do not delete
+keys, just put "?" string e.g.:
+
+    tx_per_second: "?"
+
+If the property could not be applied to the coin e.g. masternode_supply for
+Etherium, set the value to "NA".
 
 There could be multiple values for keys `website`, `explorer` and
 `message_board`. In such case use key with numeric suffix e.g.
@@ -64,3 +69,4 @@ Coins
 -----
 
 * `Bitcoin <coin/Bitcoin.yml>`_
+* `Ethereum <coin/Ethereum.yml>`_
