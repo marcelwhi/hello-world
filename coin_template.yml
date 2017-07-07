@@ -1,10 +1,16 @@
-name:
-symbol:
-website:
-explorer:
-message_board:
-max_supply:
-twitter:
-reddit:
-repo:
-genesis_block_date:
+name: <str>
+symbol: <str>
+website: <url>
+explorer: <url>
+message_board: <url>
+max_supply: <num>
+twitter: <url>
+reddit: <url>
+repo: <url>
+genesis_block_date: <date:YYYY-MM-DD>
+proof_type: <str>
+hash_algo: <str>
+block_time: <num>
+block_size: <size>
+anonymous: <yes|no>
+whitepaper: <url>
