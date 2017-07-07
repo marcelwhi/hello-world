@@ -13,7 +13,7 @@ pull requests to change existing coins or add new coins.
 How to add new coin
 -------------------
 
-Copy coin_template.yml and name it with coin name. Use common coin name,
+Copy `coin_template.yml <coin_template.yml>`_ and name it with coin name. Use common coin name,
 do not lowercase all letters, use underscore instead of space.
 
 Good names:
