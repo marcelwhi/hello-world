@@ -29,6 +29,7 @@ TEMPLATE_KEYS = [
     'masternode',
     'masternode_supply',
     'smart_contracts',
+    'lightning_network',
 ]
 
 def test_coin_names():

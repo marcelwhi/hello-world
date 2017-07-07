@@ -19,3 +19,4 @@ core_lang: <str>
 masternode: <yes|no>
 masternode_supply: <num>
 smart_contracts: <yes|no>
+lightning_network: <yes|no>

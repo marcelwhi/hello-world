@@ -21,3 +21,4 @@ core_lang: C++
 masternode: no
 masternode_supply:
 smart_contracts: yes
+lightning_network: no

@@ -20,3 +20,4 @@ core_lang: go
 masternode: no
 masternode_supply: NA
 smart_contracts: yes
+lightning_network: no
