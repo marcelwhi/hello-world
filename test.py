@@ -25,6 +25,9 @@ TEMPLATE_KEYS = [
     'anonymous',
     'whitepaper',
     'tx_per_second',
+    'core_lang',
+    'masternode',
+    'masternode_supply',
 ]
 
 def test_coin_names():

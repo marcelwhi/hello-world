@@ -17,3 +17,6 @@ block_size: 1MB
 anonymous: no
 whitepaper: https://bitcoin.org/bitcoin.pdf
 tx_per_second: 7
+core_lang: C++
+masternode: no
+masternode_supply:

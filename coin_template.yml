@@ -15,3 +15,6 @@ block_size: <size>
 anonymous: <yes|no>
 whitepaper: <url>
 tx_per_second: <num>
+core_lang: <str>
+masternode: <yes|no>
+masternode_supply: <num>
