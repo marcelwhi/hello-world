@@ -19,4 +19,3 @@ core_lang: <str>
 masternode: <yes|no>
 masternode_supply: <num>
 smart_contracts: <yes|no>
-zzzz: <num>
