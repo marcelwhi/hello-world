@@ -12,6 +12,7 @@ proof_type: <str>
 hash_algo: <str>
 block_time: <num>
 block_size: <size>
+block_reward: <num>
 anonymous: <yes|no>
 whitepaper: <url>
 tx_per_second: <num>

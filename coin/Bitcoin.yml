@@ -14,6 +14,7 @@ proof_type: proof-of-work
 hash_algo: SHA-256
 block_time: 600
 block_size: 1MB
+block_reward: 12.5
 anonymous: no
 whitepaper: https://bitcoin.org/bitcoin.pdf
 tx_per_second: 7

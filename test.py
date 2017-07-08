@@ -22,6 +22,7 @@ TEMPLATE_KEYS = [
     'hash_algo',
     'block_time',
     'block_size',
+    'block_reward',
     'anonymous',
     'whitepaper',
     'tx_per_second',

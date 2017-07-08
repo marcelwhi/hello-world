@@ -13,6 +13,7 @@ proof_type: proof-of-work
 hash_algo: Ethash
 block_time: 15
 block_size: Inf
+block_reward: 5
 anonymous: no
 whitepaper: https://github.com/ethereum/wiki/wiki/White-Paper
 tx_per_second: "?"
