@@ -54,8 +54,8 @@ order.
 Conventions
 -----------
 
-Numbers could be specified in short form using suffixes K (thousands)
-and M (millions) e.g. 21M equals to 21000000
+Numbers could be specified in short form using suffixes K (thousands),
+M (millions) and B (billions) e.g. 21M equals to 21000000
 
 For `block_key` property the suffixes are KB (kilobytes) and
 MB (megabytes).
@@ -75,3 +75,4 @@ Coins
 
 * `Bitcoin <coin/Bitcoin.yml>`_
 * `Ethereum <coin/Ethereum.yml>`_
+* `Ripple <coin/Ripple.yml>`_
