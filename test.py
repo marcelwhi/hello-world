@@ -10,7 +10,8 @@ TEMPLATE_KEYS = [
     'name',
     'symbol',
     'website',
-    'explorer',
+    'blockchain_explorer',
+    'nodes_explorer',
     'message_board',
     'max_supply',
     'twitter',
@@ -45,13 +46,9 @@ def test_coin_template_keys():
 
 
 def test_coins_keys():
-    re_extra_key = re.compile(
-        '^(website|explorer|message_board)([2-9]|\d{2,})$'
-    )
     for fname in glob('coin/*.json'):
         coin = json.load(open(fname))
-        keys = [x for x in coin.keys() if not re_extra_key.match(x)]
-        assert set(keys) == set(TEMPLATE_KEYS)
+        assert set(coin.keys()) == set(TEMPLATE_KEYS)
 
 
 def test_coins_readme_link():

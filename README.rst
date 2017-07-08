@@ -35,12 +35,21 @@ Edit the new file and fill all coin propertes you know. If you do knot know or
 do not understand some properties just put "?" string there. Do not delete
 keys, just put "?" string e.g.:
 
-    tx_per_second: "?"
+    "tx_per_second": "?"
 
-There could be multiple values for keys `website`, `explorer` and
-`message_board`. In such case use key with numeric suffix e.g.
-`website2`, `website3`, etc. Do not use suffix 1 for first item.
-The key `website` is correct, `website1` is incorrect.
+There could be multiple values for keys:
+
+* website
+* blockchain_explorer
+* nodes_explorer
+* message_board
+
+In such case just use list of string e.g.:
+
+    "nodes_explorer": [
+        "http://example.com/1",
+        "http://example.com/2"
+    ]
 
 The required minimum set of non-blank properties to add new coin is:
 
@@ -67,7 +76,7 @@ Etherium, set the value to "NA".
 
 If the value is unlimited use `Inf` literal e.g.:
 
-    max_supply: Inf
+    "max_supply": "Inf"
 
 
 Coins

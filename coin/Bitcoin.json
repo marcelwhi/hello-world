@@ -1,11 +1,19 @@
 {
     "name": "Bitcon",
     "symbol": "BTC",
-    "website": "https://bitcoin.org",
-    "website2": "https://www.bitcoin.com",
-    "explorer": "https://blockchain.info",
-    "message_board": "https://bitcointalk.org",
-    "message_board2": "https://forum.bitcoin.com",
+    "website": [
+        "https://bitcoin.org",
+        "https://www.bitcoin.com"
+    ],
+    "blockchain_explorer": "https://blockchain.info",
+    "nodes_explorer": [
+        "https://coin.dance/nodes",
+        "https://bitnodes.21.co"
+    ],
+    "message_board": [
+        "https://bitcointalk.org",
+        "https://forum.bitcoin.com"
+    ],
     "twitter": "https://twitter.com/Bitcoin",
     "reddit": "https://www.reddit.com/r/Bitcoin",
     "repo": "https://github.com/bitcoin/bitcoin",

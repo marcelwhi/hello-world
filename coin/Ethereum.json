@@ -2,8 +2,11 @@
     "name": "Ethereum",
     "symbol": "ETH",
     "website": "https://www.ethereum.org",
-    "explorer": "https://live.ether.camp",
-    "explorer2": "https://etherscan.io",
+    "blockchain_explorer": [
+        "https://live.ether.camp",
+        "https://etherscan.io"
+    ],
+    "nodes_explorer": [],
     "message_board": "https://forum.ethereum.org",
     "twitter": "https://twitter.com/ethereumproject",
     "reddit": "https://www.reddit.com/r/ethereum/",

@@ -2,8 +2,12 @@
     "name": "Ripple",
     "symbol": "XRP",
     "website": "https://ripple.com",
-    "explorer": "https://xrpcharts.ripple.com/#/graph/ ",
-    "explorer2": "https://bithomp.com/explorer/",
+    "blockchain_explorer": [
+        "https://xrpcharts.ripple.com/#/graph/ ",
+        "https://bithomp.com/explorer/",
+        "https://ripple.com/build/data-api-tool/"
+    ],
+    "nodes_explorer": [],
     "message_board": "https://www.xrpchat.com",
     "twitter": "https://twitter.com/Ripple ",
     "reddit": "https://www.reddit.com/r/Ripple/",
