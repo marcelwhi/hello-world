@@ -16,7 +16,7 @@ block_size: Inf
 block_reward: 5
 anonymous: no
 whitepaper: https://github.com/ethereum/wiki/wiki/White-Paper
-tx_per_second: "?"
+tx_per_second: 15
 core_lang: go
 masternode: no
 masternode_supply: NA
