@@ -6,7 +6,10 @@
         "https://live.ether.camp",
         "https://etherscan.io"
     ],
-    "nodes_explorer": [],
+    "nodes_explorer": [
+        "https://www.ethernodes.org/network/1",
+        "https://www.ethernodes.org/network/1/nodes"
+    ],
     "message_board": "https://forum.ethereum.org",
     "twitter": "https://twitter.com/ethereumproject",
     "reddit": "https://www.reddit.com/r/ethereum/",
