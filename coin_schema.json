@@ -3,126 +3,156 @@
     "type": "object",
     "properties": {
         "name": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z ]+[A-Za-z]$"
         },
         "symbol": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^[A-Z]{3,10}$"
         },
         "website": {
-            "type": ["string", "array"],
-            "items": {
-                "type": "string"
-            }
+            "$ref": "#/definitions/extended_url"
         },
         "blockchain_explorer": {
-            "type": ["string", "array"],
-            "items": {
-                "type": "string"
-            }
+            "$ref": "#/definitions/extended_url"
         },
         "nodes_explorer": {
-            "type": ["string", "array"],
-            "items": {
-                "type": "string"
-            }
+            "$ref": "#/definitions/extended_url"
         },
         "message_board": {
-            "type": ["string", "array"],
-            "items": {
-                "type": "string"
-            }
+            "$ref": "#/definitions/extended_url"
         },
         "twitter": {
-            "type": ["string", "array"],
-            "items": {
-                "type": "string"
-            }
+            "$ref": "#/definitions/extended_url"
         },
         "reddit": {
-            "type": ["string", "array"],
-            "items": {
-                "type": "string"
-            }
+            "$ref": "#/definitions/extended_url"
         },
         "repo": {
-            "type": ["string", "array"],
-            "items": {
-                "type": "string"
-            }
+            "$ref": "#/definitions/extended_url"
         },
         "whitepaper": {
-            "type": ["string", "array"],
-            "items": {
-                "type": "string"
-            }
+            "$ref": "#/definitions/extended_url"
         },
         "max_supply": {
-            "type": [
-                "number",
-                "string"
-            ]
+            "$ref": "#/definitions/extended_number"
         },
         "genesis_block_date": {
             "type": "string"
         },
         "proof_type": {
-            "type": ["string", "array"],
-            "items": {
-                "type": "string"
-            }
+            "oneOf": [
+                {"$ref": "#/definitions/proof_type"},
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/defintions/proof_type"
+                    }
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
         },
         "hash_algo": {
             "type": "string"
         },
         "block_time": {
-            "type": [
-                "integer",
-                "string"
-            ]
+            "$ref": "#/definitions/extended_number"
         },
         "block_size": {
-            "type": [
-                "integer",
-                "string"
-            ]
+            "$ref": "#/definitions/data_size"
         },
         "block_reward": {
-            "oneOf": [
-                {
-                    "type": "number"
-                },
-                {"$ref": "#/definitions/not_avail_or_unknown"}
-            ]
+            "$ref": "#/definitions/extended_number"
         },
         "anonymous": {
-            "type": "boolean"
+            "$ref": "#/definitions/extended_boolean"
         },
         "tx_per_second": {
-            "type": "number"
+            "$ref": "#/definitions/extended_number"
         },
         "core_lang": {
             "type": "string"
         },
         "masternode": {
-            "type": "boolean"
+            "$ref": "#/definitions/extended_boolean"
         },
         "masternode_supply": {
-            "type": [
-                "number",
-                "string"
-            ]
+            "$ref": "#/definitions/extended_number"
         },
         "smart_contracts": {
-            "type": "boolean"
+            "$ref": "#/definitions/extended_boolean"
         },
         "lightning_network": {
-            "type": "boolean"
+            "$ref": "#/definitions/extended_boolean"
         }
     },
     "definitions": {
-        "not_avail_or_unknown": {
+        "extended_number": {
+            "oneOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "string",
+                    "pattern": "^\\d+(K|M|B)"
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?", "Inf"]
+                }
+            ]
+        },
+        "extended_boolean": {
+            "oneOf": [
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
+        },
+        "data_size": {
+            "oneOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "string",
+                    "pattern": "^\\d+(KB|MB|GB)"
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?", "Inf"]
+                }
+            ]
+        },
+        "extended_url": {
+            "oneOf": [
+                {
+                    "type": "string",
+                    "pattern": "^https?://.+"
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "pattern": "^https?://.+"
+                    }
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
+        },
+        "proof_type": {
             "type": "string",
-            "enum": ["NA", "?"]
+            "enum": ["proof-of-work", "proof-of-stake"]
         }
     },
     "additionalProperties": false,
