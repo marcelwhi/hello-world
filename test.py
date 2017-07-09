@@ -39,3 +39,24 @@ def test_validate_with_schema():
     for fname in glob('coin/*.json'):
         coin = json.load(open(fname))
         validate(coin, schema)
+
+
+def test_references_are_provided():
+    for fname in glob('coin/*.json'):
+        coin = json.load(open(fname))
+        for key in coin.keys():
+            if coin['symbol'] in ('BTC', 'ETH', 'XRP'):
+                # References check for these currencies are
+                # temporarly disabled
+                pass
+            elif (
+                    key in ('name', 'symbol', 'references')
+                    or key.endswith('_url')
+                ):
+                pass
+            else:
+                if not coin['references'].get(key):
+                    raise Exception(
+                        'Coin %s does not provide reference URL for %s key'
+                        % (fname, key)
+                    )
