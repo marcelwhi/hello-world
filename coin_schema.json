@@ -1,0 +1,155 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "symbol": {
+            "type": "string"
+        },
+        "website": {
+            "type": ["string", "array"],
+            "items": {
+                "type": "string"
+            }
+        },
+        "blockchain_explorer": {
+            "type": ["string", "array"],
+            "items": {
+                "type": "string"
+            }
+        },
+        "nodes_explorer": {
+            "type": ["string", "array"],
+            "items": {
+                "type": "string"
+            }
+        },
+        "message_board": {
+            "type": ["string", "array"],
+            "items": {
+                "type": "string"
+            }
+        },
+        "twitter": {
+            "type": ["string", "array"],
+            "items": {
+                "type": "string"
+            }
+        },
+        "reddit": {
+            "type": ["string", "array"],
+            "items": {
+                "type": "string"
+            }
+        },
+        "repo": {
+            "type": ["string", "array"],
+            "items": {
+                "type": "string"
+            }
+        },
+        "whitepaper": {
+            "type": ["string", "array"],
+            "items": {
+                "type": "string"
+            }
+        },
+        "max_supply": {
+            "type": [
+                "number",
+                "string"
+            ]
+        },
+        "genesis_block_date": {
+            "type": "string"
+        },
+        "proof_type": {
+            "type": ["string", "array"],
+            "items": {
+                "type": "string"
+            }
+        },
+        "hash_algo": {
+            "type": "string"
+        },
+        "block_time": {
+            "type": [
+                "integer",
+                "string"
+            ]
+        },
+        "block_size": {
+            "type": [
+                "integer",
+                "string"
+            ]
+        },
+        "block_reward": {
+            "oneOf": [
+                {
+                    "type": "number"
+                },
+                {"$ref": "#/definitions/not_avail_or_unknown"}
+            ]
+        },
+        "anonymous": {
+            "type": "boolean"
+        },
+        "tx_per_second": {
+            "type": "number"
+        },
+        "core_lang": {
+            "type": "string"
+        },
+        "masternode": {
+            "type": "boolean"
+        },
+        "masternode_supply": {
+            "type": [
+                "number",
+                "string"
+            ]
+        },
+        "smart_contracts": {
+            "type": "boolean"
+        },
+        "lightning_network": {
+            "type": "boolean"
+        }
+    },
+    "definitions": {
+        "not_avail_or_unknown": {
+            "type": "string",
+            "enum": ["NA", "?"]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "name",
+        "symbol",
+        "website",
+        "blockchain_explorer",
+        "nodes_explorer",
+        "message_board",
+        "twitter",
+        "reddit",
+        "repo",
+        "whitepaper",
+        "max_supply",
+        "genesis_block_date",
+        "proof_type",
+        "hash_algo",
+        "block_time",
+        "block_size",
+        "block_reward",
+        "anonymous",
+        "tx_per_second",
+        "core_lang",
+        "masternode",
+        "masternode_supply",
+        "smart_contracts",
+        "lightning_network"
+    ]
+}

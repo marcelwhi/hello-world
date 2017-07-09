@@ -5,6 +5,7 @@ from glob import glob
 import os
 import re
 import json
+from jsonschema import validate
 
 TEMPLATE_KEYS = [
     'name',
@@ -56,3 +57,10 @@ def test_coins_readme_link():
         name = fname.split('/')[1].split('.')[0]
         content = open('README.rst').read()
         assert '<coin/%s.json>' % name in content
+
+
+def test_validate_with_schema():
+    schema = json.load(open('coin_schema.json'))
+    for fname in glob('coin/*.json'):
+        coin = json.load(open(fname))
+        validate(coin, schema)
