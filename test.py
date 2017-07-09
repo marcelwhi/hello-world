@@ -1,5 +1,5 @@
 """
-To run tests you need to install pytest
+To run tests you need to install pytest and jsonschema libs.
 """
 from glob import glob
 import os

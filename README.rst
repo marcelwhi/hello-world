@@ -119,6 +119,31 @@ to be satisfied:
 Properties `name`, `symbol` and `%_url` do not require proof URLs. But they
 could be annotated with proof URLs if you think it makes sense.
 
+How to validate data
+--------------------
+
+This is completely optional.
+
+In case of you want to run tests on your local machine you will need python
+interpreter.
+
+Install additional libraries with command:
+
+.. code:: shell
+
+    pip install pytest
+    pip install jsonschema
+
+Now run test with command:
+
+.. code:: shell
+
+    pytest
+
+Also you can just send github pull request and wait few minutes for travis CI
+makes testing for you. You'll see results of testing inside your pull request
+on github.
+
 
 Coins
 -----
