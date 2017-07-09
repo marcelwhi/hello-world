@@ -1,0 +1,48 @@
+{
+    "_ver": 6, 
+    "name": "Bitcon", 
+    "symbol": "BTC", 
+    "website_url": [
+        "https://bitcoin.org", 
+        "https://www.bitcoin.com"
+    ], 
+    "blockchain_explorer_url": [
+        "https://blockchain.info"
+    ], 
+    "nodes_explorer_url": [
+        "https://coin.dance/nodes", 
+        "https://bitnodes.21.co"
+    ], 
+    "message_board_url": [
+        "https://bitcointalk.org", 
+        "https://forum.bitcoin.com"
+    ], 
+    "twitter_url": [
+        "https://twitter.com/Bitcoin"
+    ], 
+    "reddit_url": [
+        "https://www.reddit.com/r/Bitcoin"
+    ], 
+    "repo_url": [
+        "https://github.com/bitcoin/bitcoin"
+    ], 
+    "whitepaper_url": [
+        "https://bitcoin.org/bitcoin.pdf"
+    ], 
+    "max_supply": 21000000, 
+    "genesis_block_date": 1230930000, 
+    "proof_type": "proof-of-work", 
+    "hash_algo": "SHA-256", 
+    "block_time": 600, 
+    "block_size": 1048576, 
+    "block_reward": 12.5, 
+    "anonymous": false, 
+    "tx_per_second": 7, 
+    "core_lang": "C++", 
+    "masternode": false, 
+    "masternode_supply": "NA", 
+    "smart_contracts": true, 
+    "lightning_network": false, 
+    "tx_min_fee": null, 
+    "references": {}
+}

@@ -1,0 +1,47 @@
+{
+    "_ver": 6, 
+    "name": "Ethereum", 
+    "symbol": "ETH", 
+    "website_url": [
+        "https://www.ethereum.org"
+    ], 
+    "blockchain_explorer_url": [
+        "https://live.ether.camp", 
+        "https://etherscan.io"
+    ], 
+    "nodes_explorer_url": [
+        "https://www.ethernodes.org/network/1", 
+        "https://www.ethernodes.org/network/1/nodes"
+    ], 
+    "message_board_url": [
+        "https://forum.ethereum.org"
+    ], 
+    "twitter_url": [
+        "https://twitter.com/ethereumproject"
+    ], 
+    "reddit_url": [
+        "https://www.reddit.com/r/ethereum/"
+    ], 
+    "repo_url": [
+        "https://github.com/ethereum/go-ethereum"
+    ], 
+    "whitepaper_url": [
+        "https://github.com/ethereum/wiki/wiki/White-Paper"
+    ], 
+    "max_supply": "Inf", 
+    "genesis_block_date": 1438203600, 
+    "proof_type": "proof-of-work", 
+    "hash_algo": "Ethash", 
+    "block_time": 15, 
+    "block_size": "Inf", 
+    "block_reward": 5, 
+    "anonymous": false, 
+    "tx_per_second": 15, 
+    "core_lang": "go", 
+    "masternode": false, 
+    "masternode_supply": "NA", 
+    "smart_contracts": true, 
+    "lightning_network": false, 
+    "tx_min_fee": null, 
+    "references": {}
+}
