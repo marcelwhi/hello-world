@@ -37,6 +37,8 @@ Edit the new file and fill all coin propertes you know. If you do knot know or
 do not understand some properties just put "?" string there. Do not delete
 keys, just put "?" string e.g.:
 
+.. code:: json
+
     "tx_per_second": "?"
 
 Keys which names ends with "_url" are list of urls. They could contain up
@@ -63,6 +65,8 @@ References property
 The "references" key points to object which keys are the usual coin properties 
 and values are list of urls to web documents that proofs the value of 
 the corresponding coin property is correct e.g.:
+
+.. code:: json
 
     "references": {
         "tx_min_fee": [
@@ -95,7 +99,9 @@ For boolean properties like `anonymous` the "yes" and "no" values must be used.
 If the property can not be applied to the coin e.g. `masternode_supply` for
 Ethereum, set the value to "NA".
 
-If the value is unlimited use `Inf` literal e.g.:
+If the value is unlimited use "Inf" string e.g.:
+
+.. code:: json
 
     "max_supply": "Inf"
 
@@ -105,8 +111,9 @@ Policy for adding/changing data
 
 For any property except `name`, `symbol` and `%_url` one of the rules have
 to be satisfied:
-* value is "?" or empty list
-* at lest one proof URLs have to exist in corresponding key in `references`
+
+* the value of property is "?" or empty list
+* at least one proof URL exists at corresponding key in `references`
   property
 
 Properties `name`, `symbol` and `%_url` do not require proof URLs. But they
