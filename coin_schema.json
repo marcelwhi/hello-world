@@ -1,0 +1,185 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z ]+[A-Za-z]$"
+        },
+        "symbol": {
+            "type": "string",
+            "pattern": "^[A-Z]{3,10}$"
+        },
+        "website": {
+            "$ref": "#/definitions/extended_url"
+        },
+        "blockchain_explorer": {
+            "$ref": "#/definitions/extended_url"
+        },
+        "nodes_explorer": {
+            "$ref": "#/definitions/extended_url"
+        },
+        "message_board": {
+            "$ref": "#/definitions/extended_url"
+        },
+        "twitter": {
+            "$ref": "#/definitions/extended_url"
+        },
+        "reddit": {
+            "$ref": "#/definitions/extended_url"
+        },
+        "repo": {
+            "$ref": "#/definitions/extended_url"
+        },
+        "whitepaper": {
+            "$ref": "#/definitions/extended_url"
+        },
+        "max_supply": {
+            "$ref": "#/definitions/extended_number"
+        },
+        "genesis_block_date": {
+            "type": "string"
+        },
+        "proof_type": {
+            "oneOf": [
+                {"$ref": "#/definitions/proof_type"},
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/defintions/proof_type"
+                    }
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
+        },
+        "hash_algo": {
+            "type": "string"
+        },
+        "block_time": {
+            "$ref": "#/definitions/extended_number"
+        },
+        "block_size": {
+            "$ref": "#/definitions/data_size"
+        },
+        "block_reward": {
+            "$ref": "#/definitions/extended_number"
+        },
+        "anonymous": {
+            "$ref": "#/definitions/extended_boolean"
+        },
+        "tx_per_second": {
+            "$ref": "#/definitions/extended_number"
+        },
+        "core_lang": {
+            "type": "string"
+        },
+        "masternode": {
+            "$ref": "#/definitions/extended_boolean"
+        },
+        "masternode_supply": {
+            "$ref": "#/definitions/extended_number"
+        },
+        "smart_contracts": {
+            "$ref": "#/definitions/extended_boolean"
+        },
+        "lightning_network": {
+            "$ref": "#/definitions/extended_boolean"
+        }
+    },
+    "definitions": {
+        "extended_number": {
+            "oneOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "string",
+                    "pattern": "^\\d+(K|M|B)"
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?", "Inf"]
+                }
+            ]
+        },
+        "extended_boolean": {
+            "oneOf": [
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
+        },
+        "data_size": {
+            "oneOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "string",
+                    "pattern": "^\\d+(KB|MB|GB)"
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?", "Inf"]
+                }
+            ]
+        },
+        "extended_url": {
+            "oneOf": [
+                {
+                    "type": "string",
+                    "pattern": "^https?://.+"
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "pattern": "^https?://.+"
+                    }
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
+        },
+        "proof_type": {
+            "type": "string",
+            "enum": ["proof-of-work", "proof-of-stake"]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "name",
+        "symbol",
+        "website",
+        "blockchain_explorer",
+        "nodes_explorer",
+        "message_board",
+        "twitter",
+        "reddit",
+        "repo",
+        "whitepaper",
+        "max_supply",
+        "genesis_block_date",
+        "proof_type",
+        "hash_algo",
+        "block_time",
+        "block_size",
+        "block_reward",
+        "anonymous",
+        "tx_per_second",
+        "core_lang",
+        "masternode",
+        "masternode_supply",
+        "smart_contracts",
+        "lightning_network"
+    ]
+}
