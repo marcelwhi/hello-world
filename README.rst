@@ -21,14 +21,14 @@ underscore instead of space.
 
 Good names:
 
-* Etherium_Classic.json
+* Ethereum_Classic.json
 * NEM.json
 * iDice.json
 
 Bad names:
 
-* Etherium Classic.json
-* etherium_classic.json
+* Ethereum Classic.json
+* ethereum_classic.json
 * Nem.json
 * nem.json
 * idice.json
@@ -93,7 +93,7 @@ MB (megabytes).
 For boolean properties like `anonymous` the "yes" and "no" values must be used.
 
 If the property can not be applied to the coin e.g. `masternode_supply` for
-Etherium, set the value to "NA".
+Ethereum, set the value to "NA".
 
 If the value is unlimited use `Inf` literal e.g.:
 
