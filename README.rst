@@ -13,6 +13,8 @@ pull requests to change existing coins or add new coins.
 How to add new coin
 -------------------
 
+Fork the repository.
+
 Copy `coin_template.json <coin_template.json>`_ to coin/ directory and name it
 with coin name. Use common coin name, do not lowercase all letters, use
 underscore instead of space.
@@ -37,28 +39,47 @@ keys, just put "?" string e.g.:
 
     "tx_per_second": "?"
 
-There could be multiple values for keys:
-
-* website
-* blockchain_explorer
-* nodes_explorer
-* message_board
-
-In such case just use list of string e.g.:
-
-    "nodes_explorer": [
-        "http://example.com/1",
-        "http://example.com/2"
-    ]
+Keys which names ends with "_url" are list of urls. They could contain up
+to 3 items. Each item have to be valid URL.
 
 The required minimum set of non-blank properties to add new coin is:
 
 * name
 * symbol 
-* website
+* website_url
 
 Add link to new coin file to README.rst. List of coins are sorted in alphabetic
 order.
+
+When you are ready create pull request and check in few minutes if automatic
+travis tests passed. Travis checks your changes for missing keys, invalid data
+types and other possible mistakes. If pull requests passed the tests I'll merge
+it in main repo or will write comment if something concerns me.
+
+
+References property
+-------------------
+
+The "references" key points to object which keys are the usual coin properties 
+and values are list of urls to web documents that proofs the value of 
+the corresponding coin property is correct e.g.:
+
+    "references": {
+        "tx_min_fee": [
+            "https://ripple.com/build/transaction-cost/"
+        ]
+    }
+
+Each list could contains up to 3 items.
+
+The set of allowed domains to link to are limited by:
+
+* any domain officially associated with the coin
+* en.wikipedia.org
+* stackoverflow.com 
+
+The list of allowed domains could be updated in the future.
+        
 
 Conventions
 -----------
@@ -66,17 +87,30 @@ Conventions
 Numbers could be specified in short form using suffixes K (thousands),
 M (millions) and B (billions) e.g. 21M equals to 21000000
 
-For `block_key` property the suffixes are KB (kilobytes) and
+Values of `block_size` key have to used another suffixes: KB (kilobytes) and
 MB (megabytes).
 
 For boolean properties like `anonymous` the "yes" and "no" values must be used.
 
-If the property could not be applied to the coin e.g. `masternode_supply` for
+If the property can not be applied to the coin e.g. `masternode_supply` for
 Etherium, set the value to "NA".
 
 If the value is unlimited use `Inf` literal e.g.:
 
     "max_supply": "Inf"
+
+
+Policy for adding/changing data
+-------------------------------
+
+For any property except `name`, `symbol` and `%_url` one of the rules have
+to be satisfied:
+* value is "?" or empty list
+* at lest one proof URLs have to exist in corresponding key in `references`
+  property
+
+Properties `name`, `symbol` and `%_url` do not require proof URLs. But they
+could be annotated with proof URLs if you think it makes sense.
 
 
 Coins

@@ -7,32 +7,7 @@ import re
 import json
 from jsonschema import validate
 
-TEMPLATE_KEYS = [
-    'name',
-    'symbol',
-    'website',
-    'blockchain_explorer',
-    'nodes_explorer',
-    'message_board',
-    'max_supply',
-    'twitter',
-    'reddit',
-    'repo',
-    'genesis_block_date',
-    'proof_type',
-    'hash_algo',
-    'block_time',
-    'block_size',
-    'block_reward',
-    'anonymous',
-    'whitepaper',
-    'tx_per_second',
-    'core_lang',
-    'masternode',
-    'masternode_supply',
-    'smart_contracts',
-    'lightning_network',
-]
+TEMPLATE_KEYS = json.load(open('coin_schema.json'))['required']
 
 def test_coin_names():
     re_coin_fname = re.compile(r'^[a-z0-9][a-z0-9_]+[a-z0-9]\.json$', re.I)

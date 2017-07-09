@@ -1,20 +1,32 @@
 {
     "name": "Ethereum",
     "symbol": "ETH",
-    "website": "https://www.ethereum.org",
-    "blockchain_explorer": [
+    "website_url": [
+        "https://www.ethereum.org"
+    ],
+    "blockchain_explorer_url": [
         "https://live.ether.camp",
         "https://etherscan.io"
     ],
-    "nodes_explorer": [
+    "nodes_explorer_url": [
         "https://www.ethernodes.org/network/1",
         "https://www.ethernodes.org/network/1/nodes"
     ],
-    "message_board": "https://forum.ethereum.org",
-    "twitter": "https://twitter.com/ethereumproject",
-    "reddit": "https://www.reddit.com/r/ethereum/",
-    "repo": "https://github.com/ethereum/go-ethereum",
-    "whitepaper": "https://github.com/ethereum/wiki/wiki/White-Paper",
+    "message_board_url": [
+        "https://forum.ethereum.org"
+    ],
+    "twitter_url": [
+        "https://twitter.com/ethereumproject"
+    ],
+    "reddit_url": [
+        "https://www.reddit.com/r/ethereum/"
+    ],
+    "repo_url": [
+        "https://github.com/ethereum/go-ethereum"
+    ],
+    "whitepaper_url": [
+        "https://github.com/ethereum/wiki/wiki/White-Paper"
+    ],
     "max_supply": "Inf",
     "genesis_block_date": "2015-07-30",
     "proof_type": "proof-of-work",
@@ -28,5 +40,7 @@
     "masternode": false,
     "masternode_supply": "NA",
     "smart_contracts": true,
-    "lightning_network": false
+    "lightning_network": false,
+    "tx_min_fee": "?",
+    "references": {}
 }

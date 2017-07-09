@@ -10,29 +10,29 @@
             "type": "string",
             "pattern": "^[A-Z]{3,10}$"
         },
-        "website": {
-            "$ref": "#/definitions/extended_url"
+        "website_url": {
+            "$ref": "#/definitions/list-of-urls"
         },
-        "blockchain_explorer": {
-            "$ref": "#/definitions/extended_url"
+        "blockchain_explorer_url": {
+            "$ref": "#/definitions/list-of-urls"
         },
-        "nodes_explorer": {
-            "$ref": "#/definitions/extended_url"
+        "nodes_explorer_url": {
+            "$ref": "#/definitions/list-of-urls"
         },
-        "message_board": {
-            "$ref": "#/definitions/extended_url"
+        "message_board_url": {
+            "$ref": "#/definitions/list-of-urls"
         },
-        "twitter": {
-            "$ref": "#/definitions/extended_url"
+        "twitter_url": {
+            "$ref": "#/definitions/list-of-urls"
         },
-        "reddit": {
-            "$ref": "#/definitions/extended_url"
+        "reddit_url": {
+            "$ref": "#/definitions/list-of-urls"
         },
-        "repo": {
-            "$ref": "#/definitions/extended_url"
+        "repo_url": {
+            "$ref": "#/definitions/list-of-urls"
         },
-        "whitepaper": {
-            "$ref": "#/definitions/extended_url"
+        "whitepaper_url": {
+            "$ref": "#/definitions/list-of-urls"
         },
         "max_supply": {
             "$ref": "#/definitions/extended_number"
@@ -61,6 +61,9 @@
         "block_time": {
             "$ref": "#/definitions/extended_number"
         },
+        "tx_min_fee": {
+            "$ref": "#/definitions/extended_number"
+        },
         "block_size": {
             "$ref": "#/definitions/data_size"
         },
@@ -87,6 +90,37 @@
         },
         "lightning_network": {
             "$ref": "#/definitions/extended_boolean"
+        },
+        "references": {
+            "type": "object",
+            "properties": {
+                "name": {"$ref": "#/definitions/list-of-urls"},
+                "symbol": {"$ref": "#/definitions/list-of-urls"},
+                "website_url": {"$ref": "#/definitions/list-of-urls"},
+                "blockchain_explorer_url": {"$ref": "#/definitions/list-of-urls"},
+                "nodes_explorer_url": {"$ref": "#/definitions/list-of-urls"},
+                "message_board_url": {"$ref": "#/definitions/list-of-urls"},
+                "twitter_url": {"$ref": "#/definitions/list-of-urls"},
+                "reddit_url": {"$ref": "#/definitions/list-of-urls"},
+                "repo_url": {"$ref": "#/definitions/list-of-urls"},
+                "whitepaper_url": {"$ref": "#/definitions/list-of-urls"},
+                "max_supply": {"$ref": "#/definitions/list-of-urls"},
+                "genesis_block_date": {"$ref": "#/definitions/list-of-urls"},
+                "proof_type": {"$ref": "#/definitions/list-of-urls"},
+                "hash_algo": {"$ref": "#/definitions/list-of-urls"},
+                "block_time": {"$ref": "#/definitions/list-of-urls"},
+                "block_size": {"$ref": "#/definitions/list-of-urls"},
+                "block_reward": {"$ref": "#/definitions/list-of-urls"},
+                "anonymous": {"$ref": "#/definitions/list-of-urls"},
+                "tx_per_second": {"$ref": "#/definitions/list-of-urls"},
+                "core_lang": {"$ref": "#/definitions/list-of-urls"},
+                "masternode": {"$ref": "#/definitions/list-of-urls"},
+                "masternode_supply": {"$ref": "#/definitions/list-of-urls"},
+                "smart_contracts": {"$ref": "#/definitions/list-of-urls"},
+                "lightning_network": {"$ref": "#/definitions/list-of-urls"},
+                "tx_min_fee": {"$ref": "#/definitions/list-of-urls"}
+            },
+            "additionalProperties": false
         }
     },
     "definitions": {
@@ -131,42 +165,32 @@
                 }
             ]
         },
-        "extended_url": {
-            "oneOf": [
-                {
-                    "type": "string",
-                    "pattern": "^https?://.+"
-                },
-                {
-                    "type": "array",
-                    "items": {
-                        "type": "string",
-                        "pattern": "^https?://.+"
-                    }
-                },
-                {
-                    "type": "string",
-                    "enum": ["NA", "?"]
-                }
-            ]
-        },
         "proof_type": {
             "type": "string",
             "enum": ["proof-of-work", "proof-of-stake"]
+        },
+        "list-of-urls": {
+            "type": "array",
+            "minItems": 0,
+            "maxItems": 3,
+            "items": {
+                "type": "string",
+                "pattern": "^https?://.+"
+            }
         }
     },
     "additionalProperties": false,
     "required": [
         "name",
         "symbol",
-        "website",
-        "blockchain_explorer",
-        "nodes_explorer",
-        "message_board",
-        "twitter",
-        "reddit",
-        "repo",
-        "whitepaper",
+        "website_url",
+        "blockchain_explorer_url",
+        "nodes_explorer_url",
+        "message_board_url",
+        "twitter_url",
+        "reddit_url",
+        "repo_url",
+        "whitepaper_url",
         "max_supply",
         "genesis_block_date",
         "proof_type",
@@ -180,6 +204,9 @@
         "masternode",
         "masternode_supply",
         "smart_contracts",
-        "lightning_network"
+        "lightning_network",
+        "tx_min_fee",
+        "references"
     ]
 }
+
