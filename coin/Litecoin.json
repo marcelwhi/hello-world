@@ -48,6 +48,7 @@
     "masternode_supply": "?",
     "smart_contracts": "?",
     "lightning_network": "?",
+    "blockchain_model": "UTXO",
     "references": {
         "max_supply": [
             "https://litecoin.info/Litecoin"
@@ -79,6 +80,9 @@
         ],
         "genesis_block_date": [
             "https://chainz.cryptoid.info/ltc/block.dws?1.htm"
+        ],
+        "blockchain_model": [
+            "https://bitcointalk.org/index.php?topic=1625340.0"
         ]
     }
 }

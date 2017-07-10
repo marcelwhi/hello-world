@@ -43,5 +43,11 @@
     "smart_contracts": true,
     "lightning_network": false,
     "tx_min_fee": "?",
-    "references": {}
+    "blockchain_model": "account",
+    "references": {
+        "blockchain_model": [
+            "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53",
+            "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+        ]
+    }
 }

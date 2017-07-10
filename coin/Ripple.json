@@ -41,9 +41,13 @@
     "smart_contracts": false,
     "lightning_network": false,
     "tx_min_fee": 0.00001,
+    "blockchain_model": "account",
     "references": {
         "tx_min_fee": [
             "https://ripple.com/build/transaction-cost/"
+        ],
+        "blockchain_model": [
+            "https://bitcoin.stackexchange.com/a/45953"
         ]
     }
 }
