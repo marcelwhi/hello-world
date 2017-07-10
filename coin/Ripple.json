@@ -25,12 +25,13 @@
     "whitepaper_url": [
         "http://www.ghassankarame.com/ripple.pdf"
     ],
+    "telegram_url": [],
     "max_supply": "100B",
     "genesis_block_date": "2013-01-01",
     "proof_type": "NA",
     "hash_algo": "SHA-512Half",
     "block_time": 4,
-    "block_size": "Inf",
+    "block_max_size": "Inf",
     "block_reward": "NA",
     "anonymous": false,
     "tx_per_second": 1000,

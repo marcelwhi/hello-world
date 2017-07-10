@@ -34,6 +34,9 @@
         "whitepaper_url": {
             "$ref": "#/definitions/list-of-urls"
         },
+        "telegram_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
         "max_supply": {
             "$ref": "#/definitions/extended_number"
         },
@@ -64,7 +67,7 @@
         "tx_min_fee": {
             "$ref": "#/definitions/extended_number"
         },
-        "block_size": {
+        "block_max_size": {
             "$ref": "#/definitions/data_size"
         },
         "block_reward": {
@@ -104,12 +107,13 @@
                 "reddit_url": {"$ref": "#/definitions/list-of-urls"},
                 "repo_url": {"$ref": "#/definitions/list-of-urls"},
                 "whitepaper_url": {"$ref": "#/definitions/list-of-urls"},
+                "telegram_url": {"$ref": "#/definitions/list-of-urls"},
                 "max_supply": {"$ref": "#/definitions/list-of-urls"},
                 "genesis_block_date": {"$ref": "#/definitions/list-of-urls"},
                 "proof_type": {"$ref": "#/definitions/list-of-urls"},
                 "hash_algo": {"$ref": "#/definitions/list-of-urls"},
                 "block_time": {"$ref": "#/definitions/list-of-urls"},
-                "block_size": {"$ref": "#/definitions/list-of-urls"},
+                "block_max_size": {"$ref": "#/definitions/list-of-urls"},
                 "block_reward": {"$ref": "#/definitions/list-of-urls"},
                 "anonymous": {"$ref": "#/definitions/list-of-urls"},
                 "tx_per_second": {"$ref": "#/definitions/list-of-urls"},
@@ -191,12 +195,13 @@
         "reddit_url",
         "repo_url",
         "whitepaper_url",
+        "telegram_url",
         "max_supply",
         "genesis_block_date",
         "proof_type",
         "hash_algo",
         "block_time",
-        "block_size",
+        "block_max_size",
         "block_reward",
         "anonymous",
         "tx_per_second",

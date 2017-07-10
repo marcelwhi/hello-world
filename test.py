@@ -44,7 +44,7 @@ def test_validate_with_schema():
 def test_references_are_provided():
     for fname in glob('coin/*.json'):
         coin = json.load(open(fname))
-        for key in coin.keys():
+        for key, val in coin.items():
             if coin['symbol'] in ('BTC', 'ETH', 'XRP'):
                 # References check for these currencies are
                 # temporarly disabled
@@ -53,6 +53,8 @@ def test_references_are_provided():
                     key in ('name', 'symbol', 'references')
                     or key.endswith('_url')
                 ):
+                pass
+            elif val == "?":
                 pass
             else:
                 if not coin['references'].get(key):

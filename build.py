@@ -13,7 +13,8 @@ CONST_KEYS = (
     'name', 'symbol', 'website_url', 'blockchain_explorer_url',
     'nodes_explorer_url', 'message_board_url',
     'twitter_url', 'reddit_url', 'repo_url',
-    'whitepaper_url', 'hash_algo', 'proof_type',
+    'whitepaper_url', 'telegram_url',
+    'hash_algo', 'proof_type',
     'anonymous', 'core_lang',
     'references', 'lightning_network',
     'masternode', 'smart_contracts', 'lighning_network',
@@ -24,7 +25,7 @@ NUM_KEYS = (
     'musternode_supply',
 )
 SIZE_KEYS = (
-    'block_size',
+    'block_max_size',
 )
 DATE_KEYS = (
     'genesis_block_date',

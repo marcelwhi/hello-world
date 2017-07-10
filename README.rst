@@ -81,6 +81,7 @@ The set of allowed domains to link to are limited by:
 * any domain officially associated with the coin
 * en.wikipedia.org
 * stackoverflow.com 
+* reddit.com
 
 The list of allowed domains could be updated in the future.
         
@@ -97,7 +98,7 @@ MB (megabytes).
 For boolean properties like `anonymous` the "yes" and "no" values must be used.
 
 If the property can not be applied to the coin e.g. `masternode_supply` for
-Ethereum, set the value to "NA".
+Ethereum, set the value to "NA" (not applicable).
 
 If the value is unlimited use "Inf" string e.g.:
 
@@ -151,3 +152,4 @@ Coins
 * `Bitcoin <coin/Bitcoin.json>`_
 * `Ethereum <coin/Ethereum.json>`_
 * `Ripple <coin/Ripple.json>`_
+* `Litecoin <coin/Litecoin.json>`_

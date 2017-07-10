@@ -28,12 +28,13 @@
     "whitepaper_url": [
         "https://bitcoin.org/bitcoin.pdf"
     ],
+    "telegram_url": [],
     "max_supply": "21M",
     "genesis_block_date": "2009-01-03",
     "proof_type": "proof-of-work",
     "hash_algo": "SHA-256",
     "block_time": 600,
-    "block_size": "1MB",
+    "block_max_size": "1MB",
     "block_reward": 12.5,
     "anonymous": false,
     "tx_per_second": 7,

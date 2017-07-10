@@ -1,9 +1,9 @@
 {
-    "_ver": 6, 
-    "date": "2017-07-09T21:18:16", 
+    "_ver": 7, 
+    "date": "2017-07-10T01:09:35", 
     "items": [
         {
-            "_ver": 6, 
+            "_ver": 7, 
             "name": "Bitcon", 
             "symbol": "BTC", 
             "website_url": [
@@ -51,7 +51,7 @@
             "references": {}
         }, 
         {
-            "_ver": 6, 
+            "_ver": 7, 
             "name": "Ripple", 
             "symbol": "XRP", 
             "website_url": [
@@ -100,7 +100,7 @@
             }
         }, 
         {
-            "_ver": 6, 
+            "_ver": 7, 
             "name": "Ethereum", 
             "symbol": "ETH", 
             "website_url": [
