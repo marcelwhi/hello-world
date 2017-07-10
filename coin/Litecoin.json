@@ -35,7 +35,7 @@
     ],
     "max_supply": "84M",
     "genesis_block_date": "2011-10-08",
-    "proof_type": "proof-of-work",
+    "consensus": "proof-of-work",
     "hash_algo": "scrypt",
     "block_time": 150,
     "block_max_size": "1MB",
@@ -53,7 +53,7 @@
         "max_supply": [
             "https://litecoin.info/Litecoin"
         ],
-        "proof_type": [
+        "consensus": [
             "https://litecoin.info/Litecoin"
         ],
         "hash_algo": [

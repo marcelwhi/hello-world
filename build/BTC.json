@@ -32,7 +32,7 @@
     "telegram_url": [], 
     "max_supply": 21000000, 
     "genesis_block_date": 1230930000, 
-    "proof_type": "proof-of-work", 
+    "consensus": "proof-of-work", 
     "hash_algo": "SHA-256", 
     "block_time": 600, 
     "block_max_size": 1048576, 

@@ -12,7 +12,7 @@
     "telegram_url": "url|list-of-urls",
     "max_supply": "num|Inf",
     "genesis_block_date": "<str:YYYY-MM-DD>",
-    "proof_type": "str|list-of-str",
+    "consensus": "str|list-of-str",
     "hash_algo": "str",
     "block_time": "num|str",
     "block_max_size": "num|str",

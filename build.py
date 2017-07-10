@@ -14,7 +14,7 @@ CONST_KEYS = (
     'nodes_explorer_url', 'message_board_url',
     'twitter_url', 'reddit_url', 'repo_url',
     'whitepaper_url', 'telegram_url',
-    'hash_algo', 'proof_type',
+    'hash_algo', 'consensus',
     'anonymous', 'core_lang',
     'references', 'lightning_network',
     'masternode', 'smart_contracts', 'lighning_network',

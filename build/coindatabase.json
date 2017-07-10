@@ -36,7 +36,7 @@
             "telegram_url": [], 
             "max_supply": 21000000, 
             "genesis_block_date": 1230930000, 
-            "proof_type": "proof-of-work", 
+            "consensus": "proof-of-work", 
             "hash_algo": "SHA-256", 
             "block_time": 600, 
             "block_max_size": 1048576, 
@@ -82,7 +82,7 @@
             "telegram_url": [], 
             "max_supply": 100000000000, 
             "genesis_block_date": 1356984000, 
-            "proof_type": "NA", 
+            "consensus": "NA", 
             "hash_algo": "SHA-512Half", 
             "block_time": 4, 
             "block_max_size": "Inf", 
@@ -139,7 +139,7 @@
             ], 
             "max_supply": 84000000, 
             "genesis_block_date": 1318017600, 
-            "proof_type": "proof-of-work", 
+            "consensus": "proof-of-work", 
             "hash_algo": "scrypt", 
             "block_time": 150, 
             "block_max_size": 1048576, 
@@ -156,7 +156,7 @@
                 "max_supply": [
                     "https://litecoin.info/Litecoin"
                 ], 
-                "proof_type": [
+                "consensus": [
                     "https://litecoin.info/Litecoin"
                 ], 
                 "hash_algo": [
@@ -219,7 +219,7 @@
             "telegram_url": [], 
             "max_supply": "Inf", 
             "genesis_block_date": 1438203600, 
-            "proof_type": "proof-of-work", 
+            "consensus": "proof-of-work", 
             "hash_algo": "Ethash", 
             "block_time": 15, 
             "block_max_size": "Inf", 

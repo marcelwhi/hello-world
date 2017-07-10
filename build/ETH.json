@@ -31,7 +31,7 @@
     "telegram_url": [], 
     "max_supply": "Inf", 
     "genesis_block_date": 1438203600, 
-    "proof_type": "proof-of-work", 
+    "consensus": "proof-of-work", 
     "hash_algo": "Ethash", 
     "block_time": 15, 
     "block_max_size": "Inf", 

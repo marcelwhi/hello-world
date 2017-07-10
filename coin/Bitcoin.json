@@ -31,7 +31,7 @@
     "telegram_url": [],
     "max_supply": "21M",
     "genesis_block_date": "2009-01-03",
-    "proof_type": "proof-of-work",
+    "consensus": "proof-of-work",
     "hash_algo": "SHA-256",
     "block_time": 600,
     "block_max_size": "1MB",

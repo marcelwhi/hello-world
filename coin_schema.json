@@ -43,13 +43,13 @@
         "genesis_block_date": {
             "type": "string"
         },
-        "proof_type": {
+        "consensus": {
             "oneOf": [
-                {"$ref": "#/definitions/proof_type"},
+                {"$ref": "#/definitions/consensus_type"},
                 {
                     "type": "array",
                     "items": {
-                        "$ref": "#/defintions/proof_type"
+                        "$ref": "#/defintions/consensus_type"
                     }
                 },
                 {
@@ -119,7 +119,7 @@
                 "telegram_url": {"$ref": "#/definitions/list-of-urls"},
                 "max_supply": {"$ref": "#/definitions/list-of-urls"},
                 "genesis_block_date": {"$ref": "#/definitions/list-of-urls"},
-                "proof_type": {"$ref": "#/definitions/list-of-urls"},
+                "consensus": {"$ref": "#/definitions/list-of-urls"},
                 "hash_algo": {"$ref": "#/definitions/list-of-urls"},
                 "block_time": {"$ref": "#/definitions/list-of-urls"},
                 "block_max_size": {"$ref": "#/definitions/list-of-urls"},
@@ -179,7 +179,7 @@
                 }
             ]
         },
-        "proof_type": {
+        "consensus_type": {
             "type": "string",
             "enum": ["proof-of-work", "proof-of-stake"]
         },
@@ -212,7 +212,7 @@
         "telegram_url",
         "max_supply",
         "genesis_block_date",
-        "proof_type",
+        "consensus",
         "hash_algo",
         "block_time",
         "block_max_size",
