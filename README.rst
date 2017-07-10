@@ -1,5 +1,5 @@
-.. image:: https://travis-ci.org/lorien/grab.png?branch=master
-    :target: https://travis-ci.org/lorien/grab?branch=master
+.. image:: https://travis-ci.org/lorien/coindatabase.png?branch=master
+    :target: https://travis-ci.org/lorien/coindatabase?branch=master
 
 About CoinDataBase project
 --------------------------
