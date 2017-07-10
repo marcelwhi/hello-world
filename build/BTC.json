@@ -1,5 +1,5 @@
 {
-    "_ver": 7, 
+    "_ver": 8, 
     "name": "Bitcon", 
     "symbol": "BTC", 
     "website_url": [
@@ -29,12 +29,13 @@
     "whitepaper_url": [
         "https://bitcoin.org/bitcoin.pdf"
     ], 
+    "telegram_url": [], 
     "max_supply": 21000000, 
     "genesis_block_date": 1230930000, 
     "proof_type": "proof-of-work", 
     "hash_algo": "SHA-256", 
     "block_time": 600, 
-    "block_size": 1048576, 
+    "block_max_size": 1048576, 
     "block_reward": 12.5, 
     "anonymous": false, 
     "tx_per_second": 7, 

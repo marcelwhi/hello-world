@@ -94,6 +94,7 @@ def normalize_coin_data(coin):
 def create_build_files():
     config = json.load(open('config.json'))
     new_version = config['version'] + 1
+    print('New build version is %d' % new_version)
     database = OrderedDict([
         ('_ver', new_version),
         ('date', datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%S')),

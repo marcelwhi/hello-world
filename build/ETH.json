@@ -1,5 +1,5 @@
 {
-    "_ver": 7, 
+    "_ver": 8, 
     "name": "Ethereum", 
     "symbol": "ETH", 
     "website_url": [
@@ -28,12 +28,13 @@
     "whitepaper_url": [
         "https://github.com/ethereum/wiki/wiki/White-Paper"
     ], 
+    "telegram_url": [], 
     "max_supply": "Inf", 
     "genesis_block_date": 1438203600, 
     "proof_type": "proof-of-work", 
     "hash_algo": "Ethash", 
     "block_time": 15, 
-    "block_size": "Inf", 
+    "block_max_size": "Inf", 
     "block_reward": 5, 
     "anonymous": false, 
     "tx_per_second": 15, 
