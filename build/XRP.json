@@ -1,5 +1,5 @@
 {
-    "_ver": 8, 
+    "_ver": 9, 
     "name": "Ripple", 
     "symbol": "XRP", 
     "website_url": [
@@ -42,9 +42,13 @@
     "smart_contracts": false, 
     "lightning_network": false, 
     "tx_min_fee": 1e-05, 
+    "blockchain_model": "account", 
     "references": {
         "tx_min_fee": [
             "https://ripple.com/build/transaction-cost/"
+        ], 
+        "blockchain_model": [
+            "https://bitcoin.stackexchange.com/a/45953"
         ]
     }
 }

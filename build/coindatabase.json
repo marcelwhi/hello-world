@@ -1,9 +1,9 @@
 {
-    "_ver": 8, 
-    "date": "2017-07-10T02:07:21", 
+    "_ver": 9, 
+    "date": "2017-07-10T20:24:27", 
     "items": [
         {
-            "_ver": 8, 
+            "_ver": 9, 
             "name": "Bitcon", 
             "symbol": "BTC", 
             "website_url": [
@@ -49,10 +49,17 @@
             "smart_contracts": true, 
             "lightning_network": false, 
             "tx_min_fee": null, 
-            "references": {}
+            "blockchain_model": "UTXO", 
+            "references": {
+                "blockchain_model": [
+                    "https://bitcoin.stackexchange.com/a/20623", 
+                    "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53", 
+                    "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+                ]
+            }
         }, 
         {
-            "_ver": 8, 
+            "_ver": 9, 
             "name": "Ripple", 
             "symbol": "XRP", 
             "website_url": [
@@ -95,14 +102,18 @@
             "smart_contracts": false, 
             "lightning_network": false, 
             "tx_min_fee": 1e-05, 
+            "blockchain_model": "account", 
             "references": {
                 "tx_min_fee": [
                     "https://ripple.com/build/transaction-cost/"
+                ], 
+                "blockchain_model": [
+                    "https://bitcoin.stackexchange.com/a/45953"
                 ]
             }
         }, 
         {
-            "_ver": 8, 
+            "_ver": 9, 
             "name": "Litecoin", 
             "symbol": "LTC", 
             "website_url": [
@@ -152,6 +163,7 @@
             "masternode_supply": null, 
             "smart_contracts": null, 
             "lightning_network": null, 
+            "blockchain_model": "UTXO", 
             "references": {
                 "max_supply": [
                     "https://litecoin.info/Litecoin"
@@ -183,11 +195,14 @@
                 ], 
                 "genesis_block_date": [
                     "https://chainz.cryptoid.info/ltc/block.dws?1.htm"
+                ], 
+                "blockchain_model": [
+                    "https://bitcointalk.org/index.php?topic=1625340.0"
                 ]
             }
         }, 
         {
-            "_ver": 8, 
+            "_ver": 9, 
             "name": "Ethereum", 
             "symbol": "ETH", 
             "website_url": [
@@ -232,7 +247,13 @@
             "smart_contracts": true, 
             "lightning_network": false, 
             "tx_min_fee": null, 
-            "references": {}
+            "blockchain_model": "account", 
+            "references": {
+                "blockchain_model": [
+                    "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53", 
+                    "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+                ]
+            }
         }
     ]
 }

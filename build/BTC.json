@@ -1,5 +1,5 @@
 {
-    "_ver": 8, 
+    "_ver": 9, 
     "name": "Bitcon", 
     "symbol": "BTC", 
     "website_url": [
@@ -45,5 +45,12 @@
     "smart_contracts": true, 
     "lightning_network": false, 
     "tx_min_fee": null, 
-    "references": {}
+    "blockchain_model": "UTXO", 
+    "references": {
+        "blockchain_model": [
+            "https://bitcoin.stackexchange.com/a/20623", 
+            "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53", 
+            "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+        ]
+    }
 }

@@ -1,5 +1,5 @@
 {
-    "_ver": 8, 
+    "_ver": 9, 
     "name": "Litecoin", 
     "symbol": "LTC", 
     "website_url": [
@@ -49,6 +49,7 @@
     "masternode_supply": null, 
     "smart_contracts": null, 
     "lightning_network": null, 
+    "blockchain_model": "UTXO", 
     "references": {
         "max_supply": [
             "https://litecoin.info/Litecoin"
@@ -80,6 +81,9 @@
         ], 
         "genesis_block_date": [
             "https://chainz.cryptoid.info/ltc/block.dws?1.htm"
+        ], 
+        "blockchain_model": [
+            "https://bitcointalk.org/index.php?topic=1625340.0"
         ]
     }
 }
