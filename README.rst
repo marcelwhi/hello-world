@@ -3,11 +3,21 @@
 
 About CoinDataBase project
 --------------------------
-Coindatabase is a database of crypto currencies basic properties like market
+
+CoinDataBase is a database of crypto currencies basic properties like market
 symbol, website, privacy/scalability/governor features, etc.
 
-Data of each currency are stored in a separate JSON file. Feel free to send
-pull requests to change existing coins or add new coins.
+The main idea of database is to provide not only the data but also proofs -
+URLs of web documents providing details about the values specified in database
+(see Policy for adding/changing data below).
+
+This database would be useful to all people studying the crypto world.
+
+Feel free to submit pull requests with new coins or corrections of existing
+data.
+
+There is a telegram bot `@coindatabase_bot <https://t.me/coindatabase_bot>`_. You can use it to get access to
+coindatabse.
 
 
 How to add new coin

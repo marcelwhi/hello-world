@@ -28,7 +28,9 @@
     "whitepaper_url": [
         "https://bitcoin.org/bitcoin.pdf"
     ],
-    "telegram_url": [],
+    "telegram_url": [
+        "https://t.me/BitcoinCore"
+    ],
     "max_supply": "21M",
     "genesis_block_date": "2009-01-03",
     "consensus": "proof-of-work",

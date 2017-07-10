@@ -25,7 +25,9 @@
     "whitepaper_url": [
         "http://www.ghassankarame.com/ripple.pdf"
     ],
-    "telegram_url": [],
+    "telegram_url": [
+        "https://t.me/Ripple"
+    ],
     "max_supply": "100B",
     "genesis_block_date": "2013-01-01",
     "consensus": "NA",
