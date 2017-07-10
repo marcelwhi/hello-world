@@ -1,8 +1,8 @@
-CoinDataBase
-============
+.. image:: https://travis-ci.org/lorien/grab.png?branch=master
+    :target: https://travis-ci.org/lorien/grab?branch=master
 
-About project
--------------
+About CoinDataBase project
+--------------------------
 Coindatabase is a database of crypto currencies basic properties like market
 symbol, website, privacy/scalability/governor features, etc.
 
