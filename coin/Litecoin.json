@@ -1,0 +1,84 @@
+{
+    "name": "Litecoin",
+    "symbol": "LTC",
+    "website_url": [
+        "https://litecoin.com",
+        "https://litecoin.org",
+        "https://litecoin.info"
+    ],
+    "blockchain_explorer_url": [
+        "http://explorer.litecoin.net/chain/Litecoin",
+        "https://chainz.cryptoid.info/ltc/",
+        "https://bitinfocharts.com/ru/litecoin/explorer/"
+    ],
+    "nodes_explorer_url": [
+        "https://bitinfocharts.com/litecoin/nodes/"
+    ],
+    "message_board_url": [
+        "https://litecointalk.io/"
+    ],
+    "twitter_url": [
+        "https://twitter.com/LitecoinProject"
+    ],
+    "reddit_url": [
+        "https://www.reddit.com/r/litecoin/"
+    ],
+    "telegram_url": [
+        "https://t.me/Litecoin"
+    ],
+    "repo_url": [
+        "https://github.com/litecoin-project/litecoin"
+    ],
+    "whitepaper_url": [
+        "https://litecoin.info/Litecoin",
+        "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
+    ],
+    "max_supply": "84M",
+    "genesis_block_date": "2011-10-08",
+    "proof_type": "proof-of-work",
+    "hash_algo": "scrypt",
+    "block_time": 150,
+    "block_max_size": "1MB",
+    "block_reward": 25,
+    "anonymous": "?",
+    "tx_per_second": "?",
+    "tx_min_fee": 0.001,
+    "core_lang": "C++",
+    "masternode": "?",
+    "masternode_supply": "?",
+    "smart_contracts": "?",
+    "lightning_network": "?",
+    "references": {
+        "max_supply": [
+            "https://litecoin.info/Litecoin"
+        ],
+        "proof_type": [
+            "https://litecoin.info/Litecoin"
+        ],
+        "hash_algo": [
+            "https://litecoin.info/Litecoin",
+            "https://litecoin.info/Scrypt"
+        ],
+        "block_time": [
+            "https://litecoin.info/Litecoin"
+        ],
+        "block_max_size": [
+            "https://www.reddit.com/r/litecoin/comments/523jlw/does_litecoin_have_a_blocksize_limit/"
+        ],
+        "block_reward": [
+            "https://bitinfocharts.com/ru/litecoin/explorer/"
+        ],
+        "anonymous": [
+            "https://www.reddit.com/r/litecoin/comments/53c0v6/confidential_transaction_for_litecoin/"
+        ],
+        "core_lang": [
+            "https://github.com/litecoin-project/litecoin"
+        ],
+        "tx_min_fee": [
+            "https://litecoin.info/Transaction_fees"
+        ],
+        "genesis_block_date": [
+            "https://chainz.cryptoid.info/ltc/block.dws?1.htm"
+        ]
+    }
+}
