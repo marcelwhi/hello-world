@@ -44,8 +44,6 @@
     "tx_per_second": "?",
     "tx_min_fee": 0.001,
     "core_lang": "C++",
-    "masternode": "?",
-    "masternode_supply": "?",
     "smart_contracts": "?",
     "blockchain_model": "UTXO",
     "references": {

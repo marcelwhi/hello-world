@@ -21,8 +21,6 @@
     "tx_per_second": "num",
     "tx_min_fee": "num",
     "core_lang": "str",
-    "masternode": "bool",
-    "masternode_supply": "num|str",
     "smart_contracts": "bool",
     "blockchain_model": "<str>",
     "references": {

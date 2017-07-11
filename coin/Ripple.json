@@ -38,8 +38,6 @@
     "anonymous": false,
     "tx_per_second": 1000,
     "core_lang": "C++",
-    "masternode": false,
-    "masternode_supply": "NA",
     "smart_contracts": false,
     "tx_min_fee": 0.00001,
     "blockchain_model": "account",

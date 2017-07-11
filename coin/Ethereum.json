@@ -38,8 +38,6 @@
     "anonymous": false,
     "tx_per_second": 15,
     "core_lang": "go",
-    "masternode": false,
-    "masternode_supply": "NA",
     "smart_contracts": true,
     "tx_min_fee": "?",
     "blockchain_model": "account",
