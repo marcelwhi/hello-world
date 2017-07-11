@@ -37,7 +37,7 @@
     "block_reward": "NA",
     "tx_per_second": 1000,
     "core_lang": "C++",
-    "smart_contracts": false,
+    "smart_contracts": "none",
     "tx_min_fee": 0.00001,
     "blockchain_model": "account",
     "references": {
@@ -46,6 +46,9 @@
         ],
         "blockchain_model": [
             "https://bitcoin.stackexchange.com/a/45953"
+        ],
+        "smart_contracts": [
+            "https://bitcoinmagazine.com/articles/ripple-discontinues-smart-contract-platform-codius-citing-small-market-1435182153/"
         ]
     }
 }

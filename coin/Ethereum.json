@@ -37,7 +37,7 @@
     "block_reward": 5,
     "tx_per_second": 15,
     "core_lang": "go",
-    "smart_contracts": true,
+    "smart_contracts": "rich",
     "tx_min_fee": "?",
     "blockchain_model": "account",
     "references": {

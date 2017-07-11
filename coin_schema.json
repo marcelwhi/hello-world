@@ -89,7 +89,13 @@
             "type": "string"
         },
         "smart_contracts": {
-            "$ref": "#/definitions/extended_boolean"
+            "oneOf": [
+                {"$ref": "#/definitions/smart_contracts_type"},
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
         },
         "references": {
             "type": "object",
@@ -162,6 +168,10 @@
                     "enum": ["NA", "?", "Inf"]
                 }
             ]
+        },
+        "smart_contracts_type": {
+            "type": "string",
+            "enum": ["none", "limited", "rich"]
         },
         "consensus_type": {
             "type": "string",

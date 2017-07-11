@@ -43,7 +43,7 @@
     "tx_per_second": "?",
     "tx_min_fee": 0.001,
     "core_lang": "C++",
-    "smart_contracts": "?",
+    "smart_contracts": "limited",
     "blockchain_model": "UTXO",
     "references": {
         "max_supply": [
@@ -76,6 +76,9 @@
         ],
         "blockchain_model": [
             "https://bitcointalk.org/index.php?topic=1625340.0"
+        ],
+        "smart_contracts": [
+            "https://github.com/litecoin-project/litecoin/pull/279"
         ]
     }
 }

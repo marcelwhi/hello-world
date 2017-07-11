@@ -20,7 +20,7 @@
     "tx_per_second": "num",
     "tx_min_fee": "num",
     "core_lang": "str",
-    "smart_contracts": "bool",
+    "smart_contracts": "none|limited|rich",
     "blockchain_model": "<str>",
     "references": {
         "property-name": "list-of-urls"
