@@ -11,6 +11,7 @@
         "https://chainz.cryptoid.info/ltc/",
         "https://bitinfocharts.com/ru/litecoin/explorer/"
     ],
+    "announcement_url": [],
     "nodes_explorer_url": [
         "https://bitinfocharts.com/litecoin/nodes/"
     ],

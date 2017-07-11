@@ -9,6 +9,7 @@
     "reddit_url": "url|list-of-urls",
     "repo_url": "url|list-of-urls",
     "whitepaper_url": "url|list-of-urls",
+    "announcement_url": [],
     "telegram_url": "url|list-of-urls",
     "max_supply": "num|Inf",
     "genesis_block_date": "<str:YYYY-MM-DD>",

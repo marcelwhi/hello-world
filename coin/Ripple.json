@@ -9,6 +9,7 @@
         "https://bithomp.com/explorer/",
         "https://ripple.com/build/data-api-tool/"
     ],
+    "announcement_url": [],
     "nodes_explorer_url": [],
     "message_board_url": [
         "https://www.xrpchat.com"

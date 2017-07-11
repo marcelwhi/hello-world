@@ -8,6 +8,7 @@
         "https://live.ether.camp",
         "https://etherscan.io"
     ],
+    "announcement_url": [],
     "nodes_explorer_url": [
         "https://www.ethernodes.org/network/1",
         "https://www.ethernodes.org/network/1/nodes"
@@ -44,6 +45,9 @@
         "blockchain_model": [
             "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53",
             "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+        ],
+        "consensus": [
+            "https://steemit.com/eth/@daut44/musings-on-ethereum-ethereum-classic"
         ]
     }
 }

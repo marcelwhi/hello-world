@@ -16,6 +16,9 @@
         "blockchain_explorer_url": {
             "$ref": "#/definitions/list-of-urls"
         },
+        "announcement_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
         "nodes_explorer_url": {
             "$ref": "#/definitions/list-of-urls"
         },
@@ -104,6 +107,7 @@
                 "symbol": {"$ref": "#/definitions/list-of-urls"},
                 "website_url": {"$ref": "#/definitions/list-of-urls"},
                 "blockchain_explorer_url": {"$ref": "#/definitions/list-of-urls"},
+                "announcement_url": {"$ref": "#/definitions/list-of-urls"},
                 "nodes_explorer_url": {"$ref": "#/definitions/list-of-urls"},
                 "message_board_url": {"$ref": "#/definitions/list-of-urls"},
                 "twitter_url": {"$ref": "#/definitions/list-of-urls"},
@@ -197,6 +201,7 @@
         "symbol",
         "website_url",
         "blockchain_explorer_url",
+        "announcement_url",
         "nodes_explorer_url",
         "message_board_url",
         "twitter_url",

@@ -9,6 +9,7 @@
         "https://blockchain.info",
         "https://chainquery.com/bitcoin-api"
     ],
+    "announcement_url": [],
     "nodes_explorer_url": [
         "https://coin.dance/nodes",
         "https://bitnodes.21.co"
