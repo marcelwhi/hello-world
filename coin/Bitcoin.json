@@ -6,7 +6,8 @@
         "https://www.bitcoin.com"
     ],
     "blockchain_explorer_url": [
-        "https://blockchain.info"
+        "https://blockchain.info",
+        "https://chainquery.com/bitcoin-api"
     ],
     "nodes_explorer_url": [
         "https://coin.dance/nodes",
