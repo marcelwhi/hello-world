@@ -1,5 +1,5 @@
 {
-    "_ver": 9, 
+    "_ver": 10, 
     "name": "Ethereum", 
     "symbol": "ETH", 
     "website_url": [
@@ -9,6 +9,7 @@
         "https://live.ether.camp", 
         "https://etherscan.io"
     ], 
+    "announcement_url": [], 
     "nodes_explorer_url": [
         "https://www.ethernodes.org/network/1", 
         "https://www.ethernodes.org/network/1/nodes"
@@ -36,19 +37,18 @@
     "block_time": 15, 
     "block_max_size": "Inf", 
     "block_reward": 5, 
-    "anonymous": false, 
     "tx_per_second": 15, 
     "core_lang": "go", 
-    "masternode": false, 
-    "masternode_supply": "NA", 
-    "smart_contracts": true, 
-    "lightning_network": false, 
+    "smart_contracts": "rich", 
     "tx_min_fee": null, 
     "blockchain_model": "account", 
     "references": {
         "blockchain_model": [
             "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53", 
             "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+        ], 
+        "consensus": [
+            "https://steemit.com/eth/@daut44/musings-on-ethereum-ethereum-classic"
         ]
     }
 }

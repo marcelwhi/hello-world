@@ -1,9 +1,9 @@
 {
-    "_ver": 9, 
-    "date": "2017-07-10T20:24:27", 
+    "_ver": 10, 
+    "date": "2017-07-11T23:50:05", 
     "items": [
         {
-            "_ver": 9, 
+            "_ver": 10, 
             "name": "Bitcon", 
             "symbol": "BTC", 
             "website_url": [
@@ -11,8 +11,10 @@
                 "https://www.bitcoin.com"
             ], 
             "blockchain_explorer_url": [
-                "https://blockchain.info"
+                "https://blockchain.info", 
+                "https://chainquery.com/bitcoin-api"
             ], 
+            "announcement_url": [], 
             "nodes_explorer_url": [
                 "https://coin.dance/nodes", 
                 "https://bitnodes.21.co"
@@ -33,7 +35,9 @@
             "whitepaper_url": [
                 "https://bitcoin.org/bitcoin.pdf"
             ], 
-            "telegram_url": [], 
+            "telegram_url": [
+                "https://t.me/BitcoinCore"
+            ], 
             "max_supply": 21000000, 
             "genesis_block_date": 1230930000, 
             "consensus": "proof-of-work", 
@@ -41,13 +45,9 @@
             "block_time": 600, 
             "block_max_size": 1048576, 
             "block_reward": 12.5, 
-            "anonymous": false, 
             "tx_per_second": 7, 
             "core_lang": "C++", 
-            "masternode": false, 
-            "masternode_supply": "NA", 
-            "smart_contracts": true, 
-            "lightning_network": false, 
+            "smart_contracts": "limited", 
             "tx_min_fee": null, 
             "blockchain_model": "UTXO", 
             "references": {
@@ -55,11 +55,97 @@
                     "https://bitcoin.stackexchange.com/a/20623", 
                     "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53", 
                     "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+                ], 
+                "smart_contracts": [
+                    "https://en.bitcoin.it/wiki/Script"
                 ]
             }
         }, 
         {
-            "_ver": 9, 
+            "_ver": 10, 
+            "name": "Ethereum Classic", 
+            "symbol": "ETC", 
+            "website_url": [
+                "https://ethereumclassic.github.io"
+            ], 
+            "blockchain_explorer_url": [
+                "https://gastracker.io/", 
+                "https://etcchain.com/explorer", 
+                "http://etherhub.io/home"
+            ], 
+            "nodes_explorer_url": [], 
+            "message_board_url": [], 
+            "announcement_url": [
+                "https://bitcointalk.org/index.php?topic=1559630.0"
+            ], 
+            "twitter_url": [
+                "https://twitter.com/eth_classic"
+            ], 
+            "reddit_url": [
+                "https://www.reddit.com/r/EthereumClassic/"
+            ], 
+            "repo_url": [
+                "https://github.com/ethereumproject/go-ethereum"
+            ], 
+            "whitepaper_url": [
+                "https://github.com/ethereum/wiki/wiki/White-Paper"
+            ], 
+            "telegram_url": [
+                "https://telegram.me/ethclassic"
+            ], 
+            "max_supply": "Inf", 
+            "genesis_block_date": 1438203600, 
+            "consensus": "proof-of-work", 
+            "hash_algo": "Ethash", 
+            "block_time": 15, 
+            "block_max_size": "Inf", 
+            "block_reward": 5, 
+            "tx_per_second": 15, 
+            "core_lang": "go", 
+            "smart_contracts": "rich", 
+            "tx_min_fee": null, 
+            "blockchain_model": "account", 
+            "references": {
+                "blockchain_model": [
+                    "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53", 
+                    "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+                ], 
+                "max_supply": [
+                    "https://www.etcdevteam.com/blog/articles/a-joint-statement-ecip1017.html"
+                ], 
+                "genesis_block_date": [
+                    "https://gastracker.io/block/1"
+                ], 
+                "consensus": [
+                    "https://steemit.com/eth/@daut44/musings-on-ethereum-ethereum-classic", 
+                    "http://ethereum-classic-guide.readthedocs.io/en/latest/mining.html"
+                ], 
+                "hash_algo": [
+                    "http://ethereum-classic-guide.readthedocs.io/en/latest/mining.html", 
+                    "https://github.com/ethereum/wiki/wiki/Ethash"
+                ], 
+                "block_time": [
+                    "http://ethereum-classic-guide.readthedocs.io/en/latest/mining.html"
+                ], 
+                "block_max_size": [
+                    "https://ethereum.stackexchange.com/questions/1106/is-there-a-limit-for-transaction-size/1110#1110"
+                ], 
+                "block_reward": [
+                    "https://www.cryptocompare.com/coins/etc/overview/BTC"
+                ], 
+                "tx_per_second": [
+                    "https://medium.com/@yobanjo/ethereum-wont-scale-like-you-ve-been-told-cae445bef539"
+                ], 
+                "core_lang": [
+                    "https://github.com/ethereumproject/go-ethereum"
+                ], 
+                "smart_contracts": [
+                    "https://github.com/ethereumclassic/faq#user-content-what-is-a-smart-contract"
+                ]
+            }
+        }, 
+        {
+            "_ver": 10, 
             "name": "Ripple", 
             "symbol": "XRP", 
             "website_url": [
@@ -70,6 +156,7 @@
                 "https://bithomp.com/explorer/", 
                 "https://ripple.com/build/data-api-tool/"
             ], 
+            "announcement_url": [], 
             "nodes_explorer_url": [], 
             "message_board_url": [
                 "https://www.xrpchat.com"
@@ -86,7 +173,9 @@
             "whitepaper_url": [
                 "http://www.ghassankarame.com/ripple.pdf"
             ], 
-            "telegram_url": [], 
+            "telegram_url": [
+                "https://t.me/Ripple"
+            ], 
             "max_supply": 100000000000, 
             "genesis_block_date": 1356984000, 
             "consensus": "NA", 
@@ -94,13 +183,9 @@
             "block_time": 4, 
             "block_max_size": "Inf", 
             "block_reward": "NA", 
-            "anonymous": false, 
             "tx_per_second": 1000, 
             "core_lang": "C++", 
-            "masternode": false, 
-            "masternode_supply": "NA", 
-            "smart_contracts": false, 
-            "lightning_network": false, 
+            "smart_contracts": "none", 
             "tx_min_fee": 1e-05, 
             "blockchain_model": "account", 
             "references": {
@@ -109,11 +194,14 @@
                 ], 
                 "blockchain_model": [
                     "https://bitcoin.stackexchange.com/a/45953"
+                ], 
+                "smart_contracts": [
+                    "https://bitcoinmagazine.com/articles/ripple-discontinues-smart-contract-platform-codius-citing-small-market-1435182153/"
                 ]
             }
         }, 
         {
-            "_ver": 9, 
+            "_ver": 10, 
             "name": "Litecoin", 
             "symbol": "LTC", 
             "website_url": [
@@ -126,6 +214,7 @@
                 "https://chainz.cryptoid.info/ltc/", 
                 "https://bitinfocharts.com/ru/litecoin/explorer/"
             ], 
+            "announcement_url": [], 
             "nodes_explorer_url": [
                 "https://bitinfocharts.com/litecoin/nodes/"
             ], 
@@ -155,14 +244,10 @@
             "block_time": 150, 
             "block_max_size": 1048576, 
             "block_reward": 25, 
-            "anonymous": null, 
             "tx_per_second": null, 
             "tx_min_fee": 0.001, 
             "core_lang": "C++", 
-            "masternode": null, 
-            "masternode_supply": null, 
-            "smart_contracts": null, 
-            "lightning_network": null, 
+            "smart_contracts": "limited", 
             "blockchain_model": "UTXO", 
             "references": {
                 "max_supply": [
@@ -184,9 +269,6 @@
                 "block_reward": [
                     "https://bitinfocharts.com/ru/litecoin/explorer/"
                 ], 
-                "anonymous": [
-                    "https://www.reddit.com/r/litecoin/comments/53c0v6/confidential_transaction_for_litecoin/"
-                ], 
                 "core_lang": [
                     "https://github.com/litecoin-project/litecoin"
                 ], 
@@ -198,11 +280,14 @@
                 ], 
                 "blockchain_model": [
                     "https://bitcointalk.org/index.php?topic=1625340.0"
+                ], 
+                "smart_contracts": [
+                    "https://github.com/litecoin-project/litecoin/pull/279"
                 ]
             }
         }, 
         {
-            "_ver": 9, 
+            "_ver": 10, 
             "name": "Ethereum", 
             "symbol": "ETH", 
             "website_url": [
@@ -212,6 +297,7 @@
                 "https://live.ether.camp", 
                 "https://etherscan.io"
             ], 
+            "announcement_url": [], 
             "nodes_explorer_url": [
                 "https://www.ethernodes.org/network/1", 
                 "https://www.ethernodes.org/network/1/nodes"
@@ -239,19 +325,18 @@
             "block_time": 15, 
             "block_max_size": "Inf", 
             "block_reward": 5, 
-            "anonymous": false, 
             "tx_per_second": 15, 
             "core_lang": "go", 
-            "masternode": false, 
-            "masternode_supply": "NA", 
-            "smart_contracts": true, 
-            "lightning_network": false, 
+            "smart_contracts": "rich", 
             "tx_min_fee": null, 
             "blockchain_model": "account", 
             "references": {
                 "blockchain_model": [
                     "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53", 
                     "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+                ], 
+                "consensus": [
+                    "https://steemit.com/eth/@daut44/musings-on-ethereum-ethereum-classic"
                 ]
             }
         }

@@ -1,5 +1,5 @@
 {
-    "_ver": 9, 
+    "_ver": 10, 
     "name": "Ripple", 
     "symbol": "XRP", 
     "website_url": [
@@ -10,6 +10,7 @@
         "https://bithomp.com/explorer/", 
         "https://ripple.com/build/data-api-tool/"
     ], 
+    "announcement_url": [], 
     "nodes_explorer_url": [], 
     "message_board_url": [
         "https://www.xrpchat.com"
@@ -26,7 +27,9 @@
     "whitepaper_url": [
         "http://www.ghassankarame.com/ripple.pdf"
     ], 
-    "telegram_url": [], 
+    "telegram_url": [
+        "https://t.me/Ripple"
+    ], 
     "max_supply": 100000000000, 
     "genesis_block_date": 1356984000, 
     "consensus": "NA", 
@@ -34,13 +37,9 @@
     "block_time": 4, 
     "block_max_size": "Inf", 
     "block_reward": "NA", 
-    "anonymous": false, 
     "tx_per_second": 1000, 
     "core_lang": "C++", 
-    "masternode": false, 
-    "masternode_supply": "NA", 
-    "smart_contracts": false, 
-    "lightning_network": false, 
+    "smart_contracts": "none", 
     "tx_min_fee": 1e-05, 
     "blockchain_model": "account", 
     "references": {
@@ -49,6 +48,9 @@
         ], 
         "blockchain_model": [
             "https://bitcoin.stackexchange.com/a/45953"
+        ], 
+        "smart_contracts": [
+            "https://bitcoinmagazine.com/articles/ripple-discontinues-smart-contract-platform-codius-citing-small-market-1435182153/"
         ]
     }
 }

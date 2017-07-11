@@ -1,5 +1,5 @@
 {
-    "_ver": 9, 
+    "_ver": 10, 
     "name": "Litecoin", 
     "symbol": "LTC", 
     "website_url": [
@@ -12,6 +12,7 @@
         "https://chainz.cryptoid.info/ltc/", 
         "https://bitinfocharts.com/ru/litecoin/explorer/"
     ], 
+    "announcement_url": [], 
     "nodes_explorer_url": [
         "https://bitinfocharts.com/litecoin/nodes/"
     ], 
@@ -41,14 +42,10 @@
     "block_time": 150, 
     "block_max_size": 1048576, 
     "block_reward": 25, 
-    "anonymous": null, 
     "tx_per_second": null, 
     "tx_min_fee": 0.001, 
     "core_lang": "C++", 
-    "masternode": null, 
-    "masternode_supply": null, 
-    "smart_contracts": null, 
-    "lightning_network": null, 
+    "smart_contracts": "limited", 
     "blockchain_model": "UTXO", 
     "references": {
         "max_supply": [
@@ -70,9 +67,6 @@
         "block_reward": [
             "https://bitinfocharts.com/ru/litecoin/explorer/"
         ], 
-        "anonymous": [
-            "https://www.reddit.com/r/litecoin/comments/53c0v6/confidential_transaction_for_litecoin/"
-        ], 
         "core_lang": [
             "https://github.com/litecoin-project/litecoin"
         ], 
@@ -84,6 +78,9 @@
         ], 
         "blockchain_model": [
             "https://bitcointalk.org/index.php?topic=1625340.0"
+        ], 
+        "smart_contracts": [
+            "https://github.com/litecoin-project/litecoin/pull/279"
         ]
     }
 }
