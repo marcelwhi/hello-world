@@ -45,7 +45,6 @@
     "masternode": false,
     "masternode_supply": "NA",
     "smart_contracts": true,
-    "lightning_network": false,
     "tx_min_fee": "?",
     "blockchain_model": "UTXO",
     "references": {

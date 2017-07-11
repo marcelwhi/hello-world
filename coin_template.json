@@ -24,7 +24,6 @@
     "masternode": "bool",
     "masternode_supply": "num|str",
     "smart_contracts": "bool",
-    "lightning_network": "bool",
     "blockchain_model": "<str>",
     "references": {
         "property-name": "list-of-urls"

@@ -47,7 +47,6 @@
     "masternode": "?",
     "masternode_supply": "?",
     "smart_contracts": "?",
-    "lightning_network": "?",
     "blockchain_model": "UTXO",
     "references": {
         "max_supply": [

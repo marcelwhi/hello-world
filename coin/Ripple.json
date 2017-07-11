@@ -41,7 +41,6 @@
     "masternode": false,
     "masternode_supply": "NA",
     "smart_contracts": false,
-    "lightning_network": false,
     "tx_min_fee": 0.00001,
     "blockchain_model": "account",
     "references": {
