@@ -86,17 +86,6 @@ the corresponding coin property is correct e.g.:
 
 Each list could contains up to 3 items.
 
-The set of allowed domains to link to are limited by:
-
-* any domain officially associated with the coin
-* en.wikipedia.org
-* stackoverflow.com 
-* stackexchange.com
-* reddit.com
-* medium.com
-
-The list of allowed domains could be updated in the future.
-        
 
 Conventions
 -----------
