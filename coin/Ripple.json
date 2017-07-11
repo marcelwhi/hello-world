@@ -35,7 +35,6 @@
     "block_time": 4,
     "block_max_size": "Inf",
     "block_reward": "NA",
-    "anonymous": false,
     "tx_per_second": 1000,
     "core_lang": "C++",
     "smart_contracts": false,

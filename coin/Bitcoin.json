@@ -39,7 +39,6 @@
     "block_time": 600,
     "block_max_size": "1MB",
     "block_reward": 12.5,
-    "anonymous": false,
     "tx_per_second": 7,
     "core_lang": "C++",
     "smart_contracts": true,

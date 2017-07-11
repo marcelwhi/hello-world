@@ -82,9 +82,6 @@
         "block_reward": {
             "$ref": "#/definitions/extended_number"
         },
-        "anonymous": {
-            "$ref": "#/definitions/extended_boolean"
-        },
         "tx_per_second": {
             "$ref": "#/definitions/extended_number"
         },
@@ -115,7 +112,6 @@
                 "block_time": {"$ref": "#/definitions/list-of-urls"},
                 "block_max_size": {"$ref": "#/definitions/list-of-urls"},
                 "block_reward": {"$ref": "#/definitions/list-of-urls"},
-                "anonymous": {"$ref": "#/definitions/list-of-urls"},
                 "tx_per_second": {"$ref": "#/definitions/list-of-urls"},
                 "core_lang": {"$ref": "#/definitions/list-of-urls"},
                 "smart_contracts": {"$ref": "#/definitions/list-of-urls"},
@@ -205,7 +201,6 @@
         "block_time",
         "block_max_size",
         "block_reward",
-        "anonymous",
         "tx_per_second",
         "core_lang",
         "smart_contracts",

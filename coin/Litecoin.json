@@ -40,7 +40,6 @@
     "block_time": 150,
     "block_max_size": "1MB",
     "block_reward": 25,
-    "anonymous": "?",
     "tx_per_second": "?",
     "tx_min_fee": 0.001,
     "core_lang": "C++",
@@ -65,9 +64,6 @@
         ],
         "block_reward": [
             "https://bitinfocharts.com/ru/litecoin/explorer/"
-        ],
-        "anonymous": [
-            "https://www.reddit.com/r/litecoin/comments/53c0v6/confidential_transaction_for_litecoin/"
         ],
         "core_lang": [
             "https://github.com/litecoin-project/litecoin"
