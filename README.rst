@@ -4,6 +4,8 @@
 About CoinDataBase project
 --------------------------
 
+TLDR; Get me to the `list of coins <#coins>`_
+
 CoinDataBase is a database of crypto currencies basic properties like market
 symbol, website, privacy/scalability/governor features, etc.
 
@@ -147,6 +149,13 @@ Now run test with command:
 Also you can just send github pull request and wait few minutes for travis CI
 makes testing for you. You'll see results of testing inside your pull request
 on github.
+
+Donation
+--------
+
+If you would like to support the project with money feel free to send it to
+following addresses
+BTC: 1L1e1L85zpxb1BYsRh7neFMifa96XWpSTd
 
 
 Coins
