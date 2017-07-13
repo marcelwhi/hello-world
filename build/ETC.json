@@ -1,5 +1,5 @@
 {
-    "_ver": 10, 
+    "_ver": 11, 
     "name": "Ethereum Classic", 
     "symbol": "ETC", 
     "website_url": [
@@ -17,6 +17,9 @@
     ], 
     "twitter_url": [
         "https://twitter.com/eth_classic"
+    ], 
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Ethereum_Classic"
     ], 
     "reddit_url": [
         "https://www.reddit.com/r/EthereumClassic/"

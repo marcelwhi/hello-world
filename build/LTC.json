@@ -1,5 +1,5 @@
 {
-    "_ver": 10, 
+    "_ver": 11, 
     "name": "Litecoin", 
     "symbol": "LTC", 
     "website_url": [
@@ -15,6 +15,9 @@
     "announcement_url": [], 
     "nodes_explorer_url": [
         "https://bitinfocharts.com/litecoin/nodes/"
+    ], 
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Litecoin"
     ], 
     "message_board_url": [
         "https://litecointalk.io/"

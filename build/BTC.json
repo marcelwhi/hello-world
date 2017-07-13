@@ -1,5 +1,5 @@
 {
-    "_ver": 10, 
+    "_ver": 11, 
     "name": "Bitcon", 
     "symbol": "BTC", 
     "website_url": [
@@ -18,6 +18,9 @@
     "message_board_url": [
         "https://bitcointalk.org", 
         "https://forum.bitcoin.com"
+    ], 
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Bitcoin"
     ], 
     "twitter_url": [
         "https://twitter.com/Bitcoin"

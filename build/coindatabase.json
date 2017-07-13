@@ -1,9 +1,9 @@
 {
-    "_ver": 10, 
-    "date": "2017-07-11T23:50:05", 
+    "_ver": 11, 
+    "date": "2017-07-13T00:10:14", 
     "items": [
         {
-            "_ver": 10, 
+            "_ver": 11, 
             "name": "Bitcon", 
             "symbol": "BTC", 
             "website_url": [
@@ -22,6 +22,9 @@
             "message_board_url": [
                 "https://bitcointalk.org", 
                 "https://forum.bitcoin.com"
+            ], 
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Bitcoin"
             ], 
             "twitter_url": [
                 "https://twitter.com/Bitcoin"
@@ -62,7 +65,7 @@
             }
         }, 
         {
-            "_ver": 10, 
+            "_ver": 11, 
             "name": "Ethereum Classic", 
             "symbol": "ETC", 
             "website_url": [
@@ -80,6 +83,9 @@
             ], 
             "twitter_url": [
                 "https://twitter.com/eth_classic"
+            ], 
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Ethereum_Classic"
             ], 
             "reddit_url": [
                 "https://www.reddit.com/r/EthereumClassic/"
@@ -145,7 +151,7 @@
             }
         }, 
         {
-            "_ver": 10, 
+            "_ver": 11, 
             "name": "Ripple", 
             "symbol": "XRP", 
             "website_url": [
@@ -163,6 +169,9 @@
             ], 
             "twitter_url": [
                 "https://twitter.com/Ripple"
+            ], 
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Ripple_(payment_protocol)"
             ], 
             "reddit_url": [
                 "https://www.reddit.com/r/Ripple/"
@@ -201,7 +210,7 @@
             }
         }, 
         {
-            "_ver": 10, 
+            "_ver": 11, 
             "name": "Litecoin", 
             "symbol": "LTC", 
             "website_url": [
@@ -217,6 +226,9 @@
             "announcement_url": [], 
             "nodes_explorer_url": [
                 "https://bitinfocharts.com/litecoin/nodes/"
+            ], 
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Litecoin"
             ], 
             "message_board_url": [
                 "https://litecointalk.io/"
@@ -287,7 +299,7 @@
             }
         }, 
         {
-            "_ver": 10, 
+            "_ver": 11, 
             "name": "Ethereum", 
             "symbol": "ETH", 
             "website_url": [
@@ -304,6 +316,9 @@
             ], 
             "message_board_url": [
                 "https://forum.ethereum.org"
+            ], 
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Ethereum"
             ], 
             "twitter_url": [
                 "https://twitter.com/ethereumproject"
