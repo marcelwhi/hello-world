@@ -31,6 +31,9 @@
         "reddit_url": {
             "$ref": "#/definitions/list-of-urls"
         },
+        "wikipedia_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
         "repo_url": {
             "$ref": "#/definitions/list-of-urls"
         },
@@ -112,6 +115,7 @@
                 "message_board_url": {"$ref": "#/definitions/list-of-urls"},
                 "twitter_url": {"$ref": "#/definitions/list-of-urls"},
                 "reddit_url": {"$ref": "#/definitions/list-of-urls"},
+                "wikipedia_url": {"$ref": "#/definitions/list-of-urls"},
                 "repo_url": {"$ref": "#/definitions/list-of-urls"},
                 "whitepaper_url": {"$ref": "#/definitions/list-of-urls"},
                 "telegram_url": {"$ref": "#/definitions/list-of-urls"},
@@ -206,6 +210,7 @@
         "message_board_url",
         "twitter_url",
         "reddit_url",
+        "wikipedia_url",
         "repo_url",
         "whitepaper_url",
         "telegram_url",

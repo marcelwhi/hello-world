@@ -16,6 +16,9 @@
     "message_board_url": [
         "https://forum.ethereum.org"
     ],
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Ethereum"
+    ],
     "twitter_url": [
         "https://twitter.com/ethereumproject"
     ],

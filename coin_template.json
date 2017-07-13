@@ -7,6 +7,7 @@
     "message_board_url": "url|list-of-urls",
     "twitter_url": "url|list-of-urls",
     "reddit_url": "url|list-of-urls",
+    "wikipedia_url": "url|list-of-urls",
     "repo_url": "url|list-of-urls",
     "whitepaper_url": "url|list-of-urls",
     "announcement_url": [],

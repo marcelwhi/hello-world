@@ -18,6 +18,9 @@
         "https://bitcointalk.org",
         "https://forum.bitcoin.com"
     ],
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Bitcoin"
+    ],
     "twitter_url": [
         "https://twitter.com/Bitcoin"
     ],
