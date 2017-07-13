@@ -143,7 +143,7 @@
                 },
                 {
                     "type": "string",
-                    "pattern": "^\\d+(K|M|B)"
+                    "pattern": "^\\d(?:[.\\d]*\\d)?(K|M|B)"
                 },
                 {
                     "type": "string",

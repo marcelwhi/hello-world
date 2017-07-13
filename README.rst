@@ -166,3 +166,4 @@ Coins
 * `Ripple <coin/Ripple.json>`_
 * `Litecoin <coin/Litecoin.json>`_
 * `Ethereum Classic <coin/Ethereum_Classic.json>`_
+* `Dash <coin/Dash.json>`_

@@ -31,7 +31,8 @@ def test_coins_readme_link():
     for fname in glob('coin/*.json'):
         name = fname.split('/')[1].split('.')[0]
         content = open('README.rst').read()
-        assert '<coin/%s.json>' % name in content
+        if '<coin/%s.json>' % name not in content:
+            assert False, 'No link to %s in README.rst' % fname
 
 
 def test_validate_with_schema():
