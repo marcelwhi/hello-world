@@ -38,13 +38,13 @@ def parse_num(val):
     if isinstance(val, (int, float)):
         return val
     elif val.endswith(('B', 'M', 'K')):
-        num = int(val[:-1])
+        num = float(val[:-1])
         factor = {
             'B': 1000**3,
             'M': 1000**2,
             'K': 1000,
         }[val[-1]]
-        return num * factor
+        return int(num * factor)
     else:
         if '.' in val:
             return float(val)

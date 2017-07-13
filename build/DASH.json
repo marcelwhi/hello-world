@@ -1,0 +1,97 @@
+{
+    "_ver": 12, 
+    "name": "Dash", 
+    "symbol": "DASH", 
+    "website_url": [
+        "https://www.dash.org", 
+        "http://dashorg64cjvj4s3.onion", 
+        "https://dashpay.atlassian.net/wiki"
+    ], 
+    "blockchain_explorer_url": [
+        "https://explorer.dash.org/chain/Dash", 
+        "https://chainz.cryptoid.info/dash/", 
+        "https://bitinfocharts.com/dash/explorer/"
+    ], 
+    "nodes_explorer_url": [
+        "https://chainz.cryptoid.info/dash/masternodes.dws", 
+        "https://bitinfocharts.com/dash/nodes-active/", 
+        "https://www.dashninja.pl/masternodes.html"
+    ], 
+    "message_board_url": [
+        "https://www.dash.org/forum/"
+    ], 
+    "twitter_url": [
+        "https://twitter.com/Dashpay"
+    ], 
+    "reddit_url": [
+        "http://www.reddit.com/r/dashpay/"
+    ], 
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Dash_(cryptocurrency)"
+    ], 
+    "repo_url": [
+        "https://github.com/dashpay/dash"
+    ], 
+    "whitepaper_url": [
+        "https://www.dash.org/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf", 
+        "https://github.com/dashpay/dash/wiki/Whitepaper", 
+        "https://www.dash.org/binaries/evo/DashPaper-v13-v1.pdf"
+    ], 
+    "announcement_url": [
+        "https://bitcointalk.org/index.php?topic=421615.0"
+    ], 
+    "telegram_url": [
+        "https://t.me/DashDigitalCash"
+    ], 
+    "max_supply": 18600000, 
+    "genesis_block_date": 1390075200, 
+    "consensus": "proof-of-work", 
+    "hash_algo": "X11", 
+    "block_time": 150, 
+    "block_max_size": 1048576, 
+    "block_reward": 3.6, 
+    "tx_per_second": 28, 
+    "tx_min_fee": 0, 
+    "core_lang": "C++", 
+    "smart_contracts": "limited", 
+    "blockchain_model": "UTXO", 
+    "references": {
+        "genesis_block_date": [
+            "https://chainz.cryptoid.info/dash/block.dws?1.htm"
+        ], 
+        "hash_algo": [
+            "https://www.dash.org/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf"
+        ], 
+        "consensus": [
+            "https://www.reddit.com/r/dashpay/comments/5zdmom/why_is_dash_not_considered_pos/"
+        ], 
+        "max_supply": [
+            "https://dash.org.ru/pages/emission.php", 
+            "https://www.dashtreasury.org/faq-general.html"
+        ], 
+        "block_time": [
+            "https://www.reddit.com/r/dashpay/comments/3yt70h/so_i_have_to_ask_the_question_what_is_dashs/"
+        ], 
+        "block_max_size": [
+            "https://www.reddit.com/r/dashpay/comments/3yt70h/so_i_have_to_ask_the_question_what_is_dashs/"
+        ], 
+        "block_reward": [
+            "https://bitinfocharts.com/dash/explorer/"
+        ], 
+        "tx_per_second": [
+            "https://www.reddit.com/r/dashpay/comments/5yw0yy/how_many_transactions_per_second_can_dash_handle/"
+        ], 
+        "tx_min_fee": [
+            "https://www.reddit.com/r/dashpay/comments/5yw0yy/how_many_transactions_per_second_can_dash_handle/"
+        ], 
+        "core_lang": [
+            "https://github.com/dashpay/dash"
+        ], 
+        "smart_contracts": [
+            "https://github.com/dashpay/bitcore-lib-dash/blob/master/docs/script.md"
+        ], 
+        "blockchain_model": [
+            "https://github.com/dashpay/dash/wiki/Whitepaper"
+        ]
+    }
+}
