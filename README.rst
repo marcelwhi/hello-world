@@ -155,7 +155,10 @@ Donation
 
 If you would like to support the project with money feel free to send it to
 following addresses
+
 BTC: 1L1e1L85zpxb1BYsRh7neFMifa96XWpSTd
+
+LTC: 0x00CFb6B03733F52dEBB77B889a95cde2c78cD81f
 
 
 Coins
