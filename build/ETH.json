@@ -1,5 +1,5 @@
 {
-    "_ver": 12, 
+    "_ver": 13, 
     "name": "Ethereum", 
     "symbol": "ETH", 
     "website_url": [
@@ -45,6 +45,8 @@
     "smart_contracts": "rich", 
     "tx_min_fee": null, 
     "blockchain_model": "account", 
+    "masternode": false, 
+    "masternode_deposit": "NA", 
     "references": {
         "blockchain_model": [
             "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53", 
@@ -52,6 +54,12 @@
         ], 
         "consensus": [
             "https://steemit.com/eth/@daut44/musings-on-ethereum-ethereum-classic"
+        ], 
+        "masternode": [
+            "https://forum.ethereum.org/discussion/4393/is-ethereum-heading-towards-a-dash-masternode-type-of-format"
+        ], 
+        "masternode_deposit": [
+            "https://forum.ethereum.org/discussion/4393/is-ethereum-heading-towards-a-dash-masternode-type-of-format"
         ]
     }
 }

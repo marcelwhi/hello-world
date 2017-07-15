@@ -1,5 +1,5 @@
 {
-    "_ver": 12, 
+    "_ver": 13, 
     "name": "Litecoin", 
     "symbol": "LTC", 
     "website_url": [
@@ -50,6 +50,8 @@
     "core_lang": "C++", 
     "smart_contracts": "limited", 
     "blockchain_model": "UTXO", 
+    "masternode": false, 
+    "masternode_deposit": "NA", 
     "references": {
         "max_supply": [
             "https://litecoin.info/Litecoin"
@@ -84,6 +86,12 @@
         ], 
         "smart_contracts": [
             "https://github.com/litecoin-project/litecoin/pull/279"
+        ], 
+        "masternode": [
+            "https://litecoin.info/Litecoin"
+        ], 
+        "masternode_deposit": [
+            "https://litecoin.info/Litecoin"
         ]
     }
 }

@@ -1,5 +1,5 @@
 {
-    "_ver": 12, 
+    "_ver": 13, 
     "name": "Dash", 
     "symbol": "DASH", 
     "website_url": [
@@ -55,6 +55,8 @@
     "core_lang": "C++", 
     "smart_contracts": "limited", 
     "blockchain_model": "UTXO", 
+    "masternode": true, 
+    "masternode_deposit": 1000, 
     "references": {
         "genesis_block_date": [
             "https://chainz.cryptoid.info/dash/block.dws?1.htm"
@@ -91,6 +93,12 @@
             "https://github.com/dashpay/bitcore-lib-dash/blob/master/docs/script.md"
         ], 
         "blockchain_model": [
+            "https://github.com/dashpay/dash/wiki/Whitepaper"
+        ], 
+        "masternode": [
+            "https://github.com/dashpay/dash/wiki/Whitepaper"
+        ], 
+        "masternode_deposit": [
             "https://github.com/dashpay/dash/wiki/Whitepaper"
         ]
     }

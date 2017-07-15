@@ -1,5 +1,5 @@
 {
-    "_ver": 12, 
+    "_ver": 13, 
     "name": "Bitcon", 
     "symbol": "BTC", 
     "website_url": [
@@ -49,6 +49,8 @@
     "smart_contracts": "limited", 
     "tx_min_fee": null, 
     "blockchain_model": "UTXO", 
+    "masternode": false, 
+    "masternode_deposit": "NA", 
     "references": {
         "blockchain_model": [
             "https://bitcoin.stackexchange.com/a/20623", 
@@ -57,6 +59,12 @@
         ], 
         "smart_contracts": [
             "https://en.bitcoin.it/wiki/Script"
+        ], 
+        "masternode": [
+            "https://bitcoin.org/bitcoin.pdf"
+        ], 
+        "masternode_deposit": [
+            "https://bitcoin.org/bitcoin.pdf"
         ]
     }
 }

@@ -1,5 +1,5 @@
 {
-    "_ver": 12, 
+    "_ver": 13, 
     "name": "Ethereum Classic", 
     "symbol": "ETC", 
     "website_url": [
@@ -45,6 +45,8 @@
     "smart_contracts": "rich", 
     "tx_min_fee": null, 
     "blockchain_model": "account", 
+    "masternode": false, 
+    "masternode_deposit": "NA", 
     "references": {
         "blockchain_model": [
             "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53", 
@@ -81,6 +83,12 @@
         ], 
         "smart_contracts": [
             "https://github.com/ethereumclassic/faq#user-content-what-is-a-smart-contract"
+        ], 
+        "masternode": [
+            "https://ethereum-classic-guide.readthedocs.io/en/latest/network/connecting-to-the-network.html#the-ethereum-network"
+        ], 
+        "masternode_deposit": [
+            "https://ethereum-classic-guide.readthedocs.io/en/latest/network/connecting-to-the-network.html#the-ethereum-network"
         ]
     }
 }
