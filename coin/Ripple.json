@@ -44,6 +44,8 @@
     "smart_contracts": "none",
     "tx_min_fee": 0.00001,
     "blockchain_model": "account",
+    "masternode": true,
+    "masternode_deposit": 0,
     "references": {
         "tx_min_fee": [
             "https://ripple.com/build/transaction-cost/"
@@ -53,6 +55,13 @@
         ],
         "smart_contracts": [
             "https://bitcoinmagazine.com/articles/ripple-discontinues-smart-contract-platform-codius-citing-small-market-1435182153/"
+        ],
+        "masternode": [
+            "https://bitcointalk.org/index.php?topic=1823559.0",
+            "https://ripple.com/technical-faq-ripple-consensus-ledger/"
+        ],
+        "masternode_deposit": [
+            "https://ripple.com/technical-faq-ripple-consensus-ledger/"
         ]
     }
 }

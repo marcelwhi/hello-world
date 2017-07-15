@@ -24,6 +24,8 @@
     "core_lang": "str",
     "smart_contracts": "none|limited|rich",
     "blockchain_model": "<str>",
+    "masternode": "bool",
+    "masternode_deposit": "num",
     "references": {
         "property-name": "list-of-urls"
     }
