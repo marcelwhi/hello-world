@@ -11,12 +11,8 @@
         "https://chainz.cryptoid.info/ltc/",
         "https://bitinfocharts.com/ru/litecoin/explorer/"
     ],
-    "announcement_url": [],
     "nodes_explorer_url": [
         "https://bitinfocharts.com/litecoin/nodes/"
-    ],
-    "wikipedia_url": [
-        "https://en.wikipedia.org/wiki/Litecoin"
     ],
     "message_board_url": [
         "https://litecointalk.io/"
@@ -30,6 +26,9 @@
     "telegram_url": [
         "https://t.me/Litecoin"
     ],
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Litecoin"
+    ],
     "repo_url": [
         "https://github.com/litecoin-project/litecoin"
     ],
@@ -37,6 +36,7 @@
         "https://litecoin.info/Litecoin",
         "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
     ],
+    "announcement_url": [],
     "max_supply": "84M",
     "genesis_block_date": "2011-10-08",
     "consensus": "proof-of-work",

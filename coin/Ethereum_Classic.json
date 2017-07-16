@@ -9,20 +9,19 @@
         "https://etcchain.com/explorer",
         "http://etherhub.io/home"
     ],
-    "nodes_explorer_url": [
-    ],
+    "nodes_explorer_url": [],
     "message_board_url": [],
-    "announcement_url": [
-        "https://bitcointalk.org/index.php?topic=1559630.0"
-    ],
     "twitter_url": [
         "https://twitter.com/eth_classic"
     ],
-    "wikipedia_url": [
-        "https://en.wikipedia.org/wiki/Ethereum_Classic"
-    ],
     "reddit_url": [
         "https://www.reddit.com/r/EthereumClassic/"
+    ],
+    "telegram_url": [
+        "https://telegram.me/ethclassic"
+    ],
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Ethereum_Classic"
     ],
     "repo_url": [
         "https://github.com/ethereumproject/go-ethereum"
@@ -30,8 +29,8 @@
     "whitepaper_url": [
         "https://github.com/ethereum/wiki/wiki/White-Paper"
     ],
-    "telegram_url": [
-        "https://telegram.me/ethclassic"
+    "announcement_url": [
+        "https://bitcointalk.org/index.php?topic=1559630.0"
     ],
     "max_supply": "Inf",
     "genesis_block_date": "2015-07-30",
@@ -41,9 +40,9 @@
     "block_max_size": "Inf",
     "block_reward": 5,
     "tx_per_second": 15,
+    "tx_min_fee": "?",
     "core_lang": "go",
     "smart_contracts": "rich",
-    "tx_min_fee": "?",
     "blockchain_model": "account",
     "masternode": false,
     "masternode_deposit": "NA",

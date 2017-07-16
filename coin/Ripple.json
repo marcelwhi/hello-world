@@ -9,7 +9,6 @@
         "https://bithomp.com/explorer/",
         "https://ripple.com/build/data-api-tool/"
     ],
-    "announcement_url": [],
     "nodes_explorer_url": [],
     "message_board_url": [
         "https://www.xrpchat.com"
@@ -17,11 +16,14 @@
     "twitter_url": [
         "https://twitter.com/Ripple"
     ],
-    "wikipedia_url": [
-        "https://en.wikipedia.org/wiki/Ripple_(payment_protocol)"
-    ],
     "reddit_url": [
         "https://www.reddit.com/r/Ripple/"
+    ],
+    "telegram_url": [
+        "https://t.me/Ripple"
+    ],
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Ripple_(payment_protocol)"
     ],
     "repo_url": [
         "https://github.com/ripple/rippled"
@@ -29,9 +31,7 @@
     "whitepaper_url": [
         "http://www.ghassankarame.com/ripple.pdf"
     ],
-    "telegram_url": [
-        "https://t.me/Ripple"
-    ],
+    "announcement_url": [],
     "max_supply": "100B",
     "genesis_block_date": "2013-01-01",
     "consensus": "NA",
@@ -40,9 +40,9 @@
     "block_max_size": "Inf",
     "block_reward": "NA",
     "tx_per_second": 1000,
+    "tx_min_fee": 1e-05,
     "core_lang": "C++",
     "smart_contracts": "none",
-    "tx_min_fee": 0.00001,
     "blockchain_model": "account",
     "masternode": true,
     "masternode_deposit": 0,
