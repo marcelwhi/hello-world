@@ -51,6 +51,7 @@
     "block_reward": 3.6,
     "tx_per_second": 28,
     "tx_min_fee": 0,
+    "tx_anonymity": "optional",
     "core_lang": "C++",
     "smart_contracts": "limited",
     "blockchain_model": "UTXO",
@@ -99,6 +100,9 @@
         ],
         "masternode_deposit": [
             "https://github.com/dashpay/dash/wiki/Whitepaper"
+        ],
+        "tx_anonymity": [
+            "https://www.dash.org/darksend/"
         ]
     }
 }

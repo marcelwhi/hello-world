@@ -41,6 +41,7 @@
     "block_reward": "NA",
     "tx_per_second": 1000,
     "tx_min_fee": 1e-05,
+    "tx_anonymity": "never",
     "core_lang": "C++",
     "smart_contracts": "none",
     "blockchain_model": "account",
@@ -62,6 +63,9 @@
         ],
         "masternode_deposit": [
             "https://ripple.com/technical-faq-ripple-consensus-ledger/"
+        ],
+        "tx_anonymity": [
+            "https://petsymposium.org/2017/papers/issue3/paper21-2017-3-source.pdf"
         ]
     }
 }

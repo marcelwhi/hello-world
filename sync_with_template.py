@@ -20,7 +20,6 @@ def main():
     for fname in glob('coin/*.json'):
         with open(fname) as inp:
             coin = json.load(inp, object_pairs_hook=OrderedDict)
-            updated = False
             for key in coin.keys():
                 if key not in tpl:
                     if opts.drop_invalid_keys:
@@ -38,16 +37,14 @@ def main():
                     print('Coin %s, new key %s' % (
                         fname, key
                     ))
-                    updated = True
             new_coin = OrderedDict(
                 sorted(coin.items(), key=lambda x: tpl_keys.index(x[0]))
             )
-            if True:#updated:
-                with open(fname, 'w') as out:
-                    json.dump(
-                        new_coin, out, indent=4, ensure_ascii=False,
-                        separators=(',', ': ')
-                    )
+            with open(fname, 'w') as out:
+                json.dump(
+                    new_coin, out, indent=4, ensure_ascii=False,
+                    separators=(',', ': ')
+                )
 
 
 if __name__ == '__main__':

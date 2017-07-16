@@ -41,6 +41,7 @@
     "block_reward": 5,
     "tx_per_second": 15,
     "tx_min_fee": "?",
+    "tx_anonymity": "never",
     "core_lang": "go",
     "smart_contracts": "rich",
     "blockchain_model": "account",
@@ -59,6 +60,9 @@
         ],
         "masternode_deposit": [
             "https://forum.ethereum.org/discussion/4393/is-ethereum-heading-towards-a-dash-masternode-type-of-format"
+        ],
+        "tx_anonymity": [
+            "https://www.reddit.com/r/ethereum/comments/3uwo9y/anonymity_in_ethereum/"
         ]
     }
 }

@@ -45,6 +45,7 @@
     "block_reward": 12.5,
     "tx_per_second": 7,
     "tx_min_fee": "?",
+    "tx_anonymity": "never",
     "core_lang": "C++",
     "smart_contracts": "limited",
     "blockchain_model": "UTXO",
@@ -64,6 +65,11 @@
         ],
         "masternode_deposit": [
             "https://bitcoin.org/bitcoin.pdf"
+        ],
+        "tx_anonymity": [
+            "https://bitcoin.org/en/you-need-to-know",
+            "https://bitcoin.org/en/protect-your-privacy",
+            "https://en.bitcoin.it/wiki/Anonymity"
         ]
     }
 }

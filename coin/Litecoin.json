@@ -46,6 +46,7 @@
     "block_reward": 25,
     "tx_per_second": "?",
     "tx_min_fee": 0.001,
+    "tx_anonymity": "never",
     "core_lang": "C++",
     "smart_contracts": "limited",
     "blockchain_model": "UTXO",
@@ -91,6 +92,11 @@
         ],
         "masternode_deposit": [
             "https://litecoin.info/Litecoin"
+        ],
+        "tx_anonymity": [
+            "https://bitcoin.org/en/you-need-to-know",
+            "https://www.reddit.com/r/litecoin/comments/53c0v6/confidential_transaction_for_litecoin/",
+            "https://bitcoin.stackexchange.com/questions/18946/is-it-possible-to-launder-bitcoin-by-exchanging-it-for-litecoin-and-then-back-to"
         ]
     }
 }
