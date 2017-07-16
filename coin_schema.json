@@ -118,6 +118,12 @@
         "masternode_deposit": {
             "$ref": "#/definitions/extended_number"
         },
+        "treasury": {
+            "$ref": "#/definitions/extended_boolean"
+        },
+        "governance": {
+            "$ref": "#/definitions/extended_boolean"
+        },
         "references": {
             "type": "object",
             "properties": {
@@ -148,7 +154,9 @@
                 "tx_min_fee": {"$ref": "#/definitions/list-of-urls"},
                 "blockchain_model": {"$ref": "#/definitions/list-of-urls"},
                 "masternode": {"$ref": "#/definitions/list-of-urls"},
-                "masternode_deposit": {"$ref": "#/definitions/list-of-urls"}
+                "masternode_deposit": {"$ref": "#/definitions/list-of-urls"},
+                "treasury": {"$ref": "#/definitions/list-of-urls"},
+                "governance": {"$ref": "#/definitions/list-of-urls"}
             },
             "additionalProperties": false
         }
@@ -251,7 +259,9 @@
         "blockchain_model",
         "references",
         "masternode",
-        "masternode_deposit"
+        "masternode_deposit",
+        "treasury",
+        "governance"
     ]
 }
 

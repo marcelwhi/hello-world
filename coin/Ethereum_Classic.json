@@ -47,6 +47,8 @@
     "blockchain_model": "account",
     "masternode": false,
     "masternode_deposit": "NA",
+    "treasury": false,
+    "governance": false,
     "references": {
         "blockchain_model": [
             "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53",
@@ -92,6 +94,12 @@
         ],
         "tx_anonymity": [
             "https://www.reddit.com/r/ethereum/comments/3uwo9y/anonymity_in_ethereum/"
+        ],
+        "treasury": [
+            "https://github.com/ethereum/wiki/wiki/White-Paper"
+        ],
+        "governance": [
+            "https://github.com/ethereum/wiki/wiki/White-Paper"
         ]
     }
 }

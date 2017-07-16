@@ -51,6 +51,8 @@
     "blockchain_model": "UTXO",
     "masternode": false,
     "masternode_deposit": "NA",
+    "treasury": false,
+    "governance": false,
     "references": {
         "blockchain_model": [
             "https://bitcoin.stackexchange.com/a/20623",
@@ -70,6 +72,12 @@
             "https://bitcoin.org/en/you-need-to-know",
             "https://bitcoin.org/en/protect-your-privacy",
             "https://en.bitcoin.it/wiki/Anonymity"
+        ],
+        "treasury": [
+            "https://bitcoin.org/bitcoin.pdf"
+        ],
+        "governance": [
+            "https://bitcoin.org/bitcoin.pdf"
         ]
     }
 }

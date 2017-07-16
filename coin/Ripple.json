@@ -29,6 +29,7 @@
         "https://github.com/ripple/rippled"
     ],
     "whitepaper_url": [
+        "https://ripple.com/files/ripple_vision.pdf",
         "http://www.ghassankarame.com/ripple.pdf"
     ],
     "announcement_url": [],
@@ -47,6 +48,8 @@
     "blockchain_model": "account",
     "masternode": true,
     "masternode_deposit": 0,
+    "treasury": false,
+    "governance": false,
     "references": {
         "tx_min_fee": [
             "https://ripple.com/build/transaction-cost/"
@@ -66,6 +69,12 @@
         ],
         "tx_anonymity": [
             "https://petsymposium.org/2017/papers/issue3/paper21-2017-3-source.pdf"
+        ],
+        "treasury": [
+            "https://ripple.com/files/ripple_vision.pdf"
+        ],
+        "governance": [
+            "https://ripple.com/files/ripple_vision.pdf"
         ]
     }
 }

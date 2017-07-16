@@ -52,6 +52,8 @@
     "blockchain_model": "UTXO",
     "masternode": false,
     "masternode_deposit": "NA",
+    "treasury": false,
+    "governance": false,
     "references": {
         "max_supply": [
             "https://litecoin.info/Litecoin"
@@ -97,6 +99,12 @@
             "https://bitcoin.org/en/you-need-to-know",
             "https://www.reddit.com/r/litecoin/comments/53c0v6/confidential_transaction_for_litecoin/",
             "https://bitcoin.stackexchange.com/questions/18946/is-it-possible-to-launder-bitcoin-by-exchanging-it-for-litecoin-and-then-back-to"
+        ],
+        "treasury": [
+            "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
+        ],
+        "governance": [
+            "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
         ]
     }
 }

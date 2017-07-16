@@ -27,6 +27,8 @@
     "blockchain_model": "<str>",
     "masternode": "bool",
     "masternode_deposit": "num",
+    "treasury": "bool",
+    "governance": "bool",
     "references": {
         "property-name": "list-of-urls"
     }
