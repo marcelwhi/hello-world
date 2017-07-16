@@ -1,9 +1,9 @@
 {
-    "_ver": 13, 
-    "date": "2017-07-15T22:44:11", 
+    "_ver": 14, 
+    "date": "2017-07-16T10:02:59", 
     "items": [
         {
-            "_ver": 13, 
+            "_ver": 14, 
             "name": "Bitcon", 
             "symbol": "BTC", 
             "website_url": [
@@ -14,7 +14,6 @@
                 "https://blockchain.info", 
                 "https://chainquery.com/bitcoin-api"
             ], 
-            "announcement_url": [], 
             "nodes_explorer_url": [
                 "https://coin.dance/nodes", 
                 "https://bitnodes.21.co"
@@ -23,14 +22,17 @@
                 "https://bitcointalk.org", 
                 "https://forum.bitcoin.com"
             ], 
-            "wikipedia_url": [
-                "https://en.wikipedia.org/wiki/Bitcoin"
-            ], 
             "twitter_url": [
                 "https://twitter.com/Bitcoin"
             ], 
             "reddit_url": [
                 "https://www.reddit.com/r/Bitcoin"
+            ], 
+            "telegram_url": [
+                "https://t.me/BitcoinCore"
+            ], 
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Bitcoin"
             ], 
             "repo_url": [
                 "https://github.com/bitcoin/bitcoin"
@@ -38,9 +40,7 @@
             "whitepaper_url": [
                 "https://bitcoin.org/bitcoin.pdf"
             ], 
-            "telegram_url": [
-                "https://t.me/BitcoinCore"
-            ], 
+            "announcement_url": [], 
             "max_supply": 21000000, 
             "genesis_block_date": 1230930000, 
             "consensus": "proof-of-work", 
@@ -49,9 +49,10 @@
             "block_max_size": 1048576, 
             "block_reward": 12.5, 
             "tx_per_second": 7, 
+            "tx_min_fee": null, 
+            "tx_anonymity": "never", 
             "core_lang": "C++", 
             "smart_contracts": "limited", 
-            "tx_min_fee": null, 
             "blockchain_model": "UTXO", 
             "masternode": false, 
             "masternode_deposit": "NA", 
@@ -69,11 +70,16 @@
                 ], 
                 "masternode_deposit": [
                     "https://bitcoin.org/bitcoin.pdf"
+                ], 
+                "tx_anonymity": [
+                    "https://bitcoin.org/en/you-need-to-know", 
+                    "https://bitcoin.org/en/protect-your-privacy", 
+                    "https://en.bitcoin.it/wiki/Anonymity"
                 ]
             }
         }, 
         {
-            "_ver": 13, 
+            "_ver": 14, 
             "name": "Ethereum Classic", 
             "symbol": "ETC", 
             "website_url": [
@@ -86,17 +92,17 @@
             ], 
             "nodes_explorer_url": [], 
             "message_board_url": [], 
-            "announcement_url": [
-                "https://bitcointalk.org/index.php?topic=1559630.0"
-            ], 
             "twitter_url": [
                 "https://twitter.com/eth_classic"
             ], 
-            "wikipedia_url": [
-                "https://en.wikipedia.org/wiki/Ethereum_Classic"
-            ], 
             "reddit_url": [
                 "https://www.reddit.com/r/EthereumClassic/"
+            ], 
+            "telegram_url": [
+                "https://telegram.me/ethclassic"
+            ], 
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Ethereum_Classic"
             ], 
             "repo_url": [
                 "https://github.com/ethereumproject/go-ethereum"
@@ -104,8 +110,8 @@
             "whitepaper_url": [
                 "https://github.com/ethereum/wiki/wiki/White-Paper"
             ], 
-            "telegram_url": [
-                "https://telegram.me/ethclassic"
+            "announcement_url": [
+                "https://bitcointalk.org/index.php?topic=1559630.0"
             ], 
             "max_supply": "Inf", 
             "genesis_block_date": 1438203600, 
@@ -115,9 +121,10 @@
             "block_max_size": "Inf", 
             "block_reward": 5, 
             "tx_per_second": 15, 
+            "tx_min_fee": null, 
+            "tx_anonymity": "never", 
             "core_lang": "go", 
             "smart_contracts": "rich", 
-            "tx_min_fee": null, 
             "blockchain_model": "account", 
             "masternode": false, 
             "masternode_deposit": "NA", 
@@ -163,11 +170,14 @@
                 ], 
                 "masternode_deposit": [
                     "https://ethereum-classic-guide.readthedocs.io/en/latest/network/connecting-to-the-network.html#the-ethereum-network"
+                ], 
+                "tx_anonymity": [
+                    "https://www.reddit.com/r/ethereum/comments/3uwo9y/anonymity_in_ethereum/"
                 ]
             }
         }, 
         {
-            "_ver": 13, 
+            "_ver": 14, 
             "name": "Ripple", 
             "symbol": "XRP", 
             "website_url": [
@@ -178,7 +188,6 @@
                 "https://bithomp.com/explorer/", 
                 "https://ripple.com/build/data-api-tool/"
             ], 
-            "announcement_url": [], 
             "nodes_explorer_url": [], 
             "message_board_url": [
                 "https://www.xrpchat.com"
@@ -186,11 +195,14 @@
             "twitter_url": [
                 "https://twitter.com/Ripple"
             ], 
-            "wikipedia_url": [
-                "https://en.wikipedia.org/wiki/Ripple_(payment_protocol)"
-            ], 
             "reddit_url": [
                 "https://www.reddit.com/r/Ripple/"
+            ], 
+            "telegram_url": [
+                "https://t.me/Ripple"
+            ], 
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Ripple_(payment_protocol)"
             ], 
             "repo_url": [
                 "https://github.com/ripple/rippled"
@@ -198,9 +210,7 @@
             "whitepaper_url": [
                 "http://www.ghassankarame.com/ripple.pdf"
             ], 
-            "telegram_url": [
-                "https://t.me/Ripple"
-            ], 
+            "announcement_url": [], 
             "max_supply": 100000000000, 
             "genesis_block_date": 1356984000, 
             "consensus": "NA", 
@@ -209,9 +219,10 @@
             "block_max_size": "Inf", 
             "block_reward": "NA", 
             "tx_per_second": 1000, 
+            "tx_min_fee": 1e-05, 
+            "tx_anonymity": "never", 
             "core_lang": "C++", 
             "smart_contracts": "none", 
-            "tx_min_fee": 1e-05, 
             "blockchain_model": "account", 
             "masternode": true, 
             "masternode_deposit": 0, 
@@ -231,11 +242,14 @@
                 ], 
                 "masternode_deposit": [
                     "https://ripple.com/technical-faq-ripple-consensus-ledger/"
+                ], 
+                "tx_anonymity": [
+                    "https://petsymposium.org/2017/papers/issue3/paper21-2017-3-source.pdf"
                 ]
             }
         }, 
         {
-            "_ver": 13, 
+            "_ver": 14, 
             "name": "Dash", 
             "symbol": "DASH", 
             "website_url": [
@@ -262,6 +276,9 @@
             "reddit_url": [
                 "http://www.reddit.com/r/dashpay/"
             ], 
+            "telegram_url": [
+                "https://t.me/DashDigitalCash"
+            ], 
             "wikipedia_url": [
                 "https://en.wikipedia.org/wiki/Dash_(cryptocurrency)"
             ], 
@@ -276,9 +293,6 @@
             "announcement_url": [
                 "https://bitcointalk.org/index.php?topic=421615.0"
             ], 
-            "telegram_url": [
-                "https://t.me/DashDigitalCash"
-            ], 
             "max_supply": 18600000, 
             "genesis_block_date": 1390075200, 
             "consensus": "proof-of-work", 
@@ -288,6 +302,7 @@
             "block_reward": 3.6, 
             "tx_per_second": 28, 
             "tx_min_fee": 0, 
+            "tx_anonymity": "optional", 
             "core_lang": "C++", 
             "smart_contracts": "limited", 
             "blockchain_model": "UTXO", 
@@ -336,11 +351,14 @@
                 ], 
                 "masternode_deposit": [
                     "https://github.com/dashpay/dash/wiki/Whitepaper"
+                ], 
+                "tx_anonymity": [
+                    "https://www.dash.org/darksend/"
                 ]
             }
         }, 
         {
-            "_ver": 13, 
+            "_ver": 14, 
             "name": "Litecoin", 
             "symbol": "LTC", 
             "website_url": [
@@ -353,12 +371,8 @@
                 "https://chainz.cryptoid.info/ltc/", 
                 "https://bitinfocharts.com/ru/litecoin/explorer/"
             ], 
-            "announcement_url": [], 
             "nodes_explorer_url": [
                 "https://bitinfocharts.com/litecoin/nodes/"
-            ], 
-            "wikipedia_url": [
-                "https://en.wikipedia.org/wiki/Litecoin"
             ], 
             "message_board_url": [
                 "https://litecointalk.io/"
@@ -372,6 +386,9 @@
             "telegram_url": [
                 "https://t.me/Litecoin"
             ], 
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Litecoin"
+            ], 
             "repo_url": [
                 "https://github.com/litecoin-project/litecoin"
             ], 
@@ -379,6 +396,7 @@
                 "https://litecoin.info/Litecoin", 
                 "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
             ], 
+            "announcement_url": [], 
             "max_supply": 84000000, 
             "genesis_block_date": 1318017600, 
             "consensus": "proof-of-work", 
@@ -388,6 +406,7 @@
             "block_reward": 25, 
             "tx_per_second": null, 
             "tx_min_fee": 0.001, 
+            "tx_anonymity": "never", 
             "core_lang": "C++", 
             "smart_contracts": "limited", 
             "blockchain_model": "UTXO", 
@@ -433,11 +452,16 @@
                 ], 
                 "masternode_deposit": [
                     "https://litecoin.info/Litecoin"
+                ], 
+                "tx_anonymity": [
+                    "https://bitcoin.org/en/you-need-to-know", 
+                    "https://www.reddit.com/r/litecoin/comments/53c0v6/confidential_transaction_for_litecoin/", 
+                    "https://bitcoin.stackexchange.com/questions/18946/is-it-possible-to-launder-bitcoin-by-exchanging-it-for-litecoin-and-then-back-to"
                 ]
             }
         }, 
         {
-            "_ver": 13, 
+            "_ver": 14, 
             "name": "Ethereum", 
             "symbol": "ETH", 
             "website_url": [
@@ -447,7 +471,6 @@
                 "https://live.ether.camp", 
                 "https://etherscan.io"
             ], 
-            "announcement_url": [], 
             "nodes_explorer_url": [
                 "https://www.ethernodes.org/network/1", 
                 "https://www.ethernodes.org/network/1/nodes"
@@ -455,14 +478,15 @@
             "message_board_url": [
                 "https://forum.ethereum.org"
             ], 
-            "wikipedia_url": [
-                "https://en.wikipedia.org/wiki/Ethereum"
-            ], 
             "twitter_url": [
                 "https://twitter.com/ethereumproject"
             ], 
             "reddit_url": [
                 "https://www.reddit.com/r/ethereum/"
+            ], 
+            "telegram_url": [], 
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Ethereum"
             ], 
             "repo_url": [
                 "https://github.com/ethereum/go-ethereum"
@@ -470,7 +494,7 @@
             "whitepaper_url": [
                 "https://github.com/ethereum/wiki/wiki/White-Paper"
             ], 
-            "telegram_url": [], 
+            "announcement_url": [], 
             "max_supply": "Inf", 
             "genesis_block_date": 1438203600, 
             "consensus": "proof-of-work", 
@@ -479,9 +503,10 @@
             "block_max_size": "Inf", 
             "block_reward": 5, 
             "tx_per_second": 15, 
+            "tx_min_fee": null, 
+            "tx_anonymity": "never", 
             "core_lang": "go", 
             "smart_contracts": "rich", 
-            "tx_min_fee": null, 
             "blockchain_model": "account", 
             "masternode": false, 
             "masternode_deposit": "NA", 
@@ -498,6 +523,9 @@
                 ], 
                 "masternode_deposit": [
                     "https://forum.ethereum.org/discussion/4393/is-ethereum-heading-towards-a-dash-masternode-type-of-format"
+                ], 
+                "tx_anonymity": [
+                    "https://www.reddit.com/r/ethereum/comments/3uwo9y/anonymity_in_ethereum/"
                 ]
             }
         }

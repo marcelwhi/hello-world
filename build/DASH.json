@@ -1,5 +1,5 @@
 {
-    "_ver": 13, 
+    "_ver": 14, 
     "name": "Dash", 
     "symbol": "DASH", 
     "website_url": [
@@ -26,6 +26,9 @@
     "reddit_url": [
         "http://www.reddit.com/r/dashpay/"
     ], 
+    "telegram_url": [
+        "https://t.me/DashDigitalCash"
+    ], 
     "wikipedia_url": [
         "https://en.wikipedia.org/wiki/Dash_(cryptocurrency)"
     ], 
@@ -40,9 +43,6 @@
     "announcement_url": [
         "https://bitcointalk.org/index.php?topic=421615.0"
     ], 
-    "telegram_url": [
-        "https://t.me/DashDigitalCash"
-    ], 
     "max_supply": 18600000, 
     "genesis_block_date": 1390075200, 
     "consensus": "proof-of-work", 
@@ -52,6 +52,7 @@
     "block_reward": 3.6, 
     "tx_per_second": 28, 
     "tx_min_fee": 0, 
+    "tx_anonymity": "optional", 
     "core_lang": "C++", 
     "smart_contracts": "limited", 
     "blockchain_model": "UTXO", 
@@ -100,6 +101,9 @@
         ], 
         "masternode_deposit": [
             "https://github.com/dashpay/dash/wiki/Whitepaper"
+        ], 
+        "tx_anonymity": [
+            "https://www.dash.org/darksend/"
         ]
     }
 }

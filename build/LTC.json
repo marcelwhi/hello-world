@@ -1,5 +1,5 @@
 {
-    "_ver": 13, 
+    "_ver": 14, 
     "name": "Litecoin", 
     "symbol": "LTC", 
     "website_url": [
@@ -12,12 +12,8 @@
         "https://chainz.cryptoid.info/ltc/", 
         "https://bitinfocharts.com/ru/litecoin/explorer/"
     ], 
-    "announcement_url": [], 
     "nodes_explorer_url": [
         "https://bitinfocharts.com/litecoin/nodes/"
-    ], 
-    "wikipedia_url": [
-        "https://en.wikipedia.org/wiki/Litecoin"
     ], 
     "message_board_url": [
         "https://litecointalk.io/"
@@ -31,6 +27,9 @@
     "telegram_url": [
         "https://t.me/Litecoin"
     ], 
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Litecoin"
+    ], 
     "repo_url": [
         "https://github.com/litecoin-project/litecoin"
     ], 
@@ -38,6 +37,7 @@
         "https://litecoin.info/Litecoin", 
         "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
     ], 
+    "announcement_url": [], 
     "max_supply": 84000000, 
     "genesis_block_date": 1318017600, 
     "consensus": "proof-of-work", 
@@ -47,6 +47,7 @@
     "block_reward": 25, 
     "tx_per_second": null, 
     "tx_min_fee": 0.001, 
+    "tx_anonymity": "never", 
     "core_lang": "C++", 
     "smart_contracts": "limited", 
     "blockchain_model": "UTXO", 
@@ -92,6 +93,11 @@
         ], 
         "masternode_deposit": [
             "https://litecoin.info/Litecoin"
+        ], 
+        "tx_anonymity": [
+            "https://bitcoin.org/en/you-need-to-know", 
+            "https://www.reddit.com/r/litecoin/comments/53c0v6/confidential_transaction_for_litecoin/", 
+            "https://bitcoin.stackexchange.com/questions/18946/is-it-possible-to-launder-bitcoin-by-exchanging-it-for-litecoin-and-then-back-to"
         ]
     }
 }

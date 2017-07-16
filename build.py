@@ -20,7 +20,8 @@ CONST_KEYS = (
     'references', 'lightning_network',
     'masternode', 'smart_contracts', 'lighning_network',
     'blockchain_model', 'announcement_url',
-    "masternode", "masternode_deposit"
+    "masternode", "masternode_deposit",
+    "tx_anonymity",
 )
 NUM_KEYS = (
     'max_supply', 'block_time', 'block_reward',
