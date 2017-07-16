@@ -1,5 +1,5 @@
 {
-    "_ver": 14, 
+    "_ver": 15, 
     "name": "Dash", 
     "symbol": "DASH", 
     "website_url": [
@@ -58,6 +58,8 @@
     "blockchain_model": "UTXO", 
     "masternode": true, 
     "masternode_deposit": 1000, 
+    "treasury": true, 
+    "governance": true, 
     "references": {
         "genesis_block_date": [
             "https://chainz.cryptoid.info/dash/block.dws?1.htm"
@@ -104,6 +106,13 @@
         ], 
         "tx_anonymity": [
             "https://www.dash.org/darksend/"
+        ], 
+        "governance": [
+            "https://www.dash.org/forum/threads/self-sustainable-decentralized-governance-by-blockchain.4708/", 
+            "https://dashvotetracker.com/"
+        ], 
+        "treasury": [
+            "https://www.dashtreasury.org/"
         ]
     }
 }

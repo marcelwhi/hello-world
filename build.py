@@ -21,7 +21,7 @@ CONST_KEYS = (
     'masternode', 'smart_contracts', 'lighning_network',
     'blockchain_model', 'announcement_url',
     "masternode", "masternode_deposit",
-    "tx_anonymity",
+    "tx_anonymity", "treasury", "governance"
 )
 NUM_KEYS = (
     'max_supply', 'block_time', 'block_reward',

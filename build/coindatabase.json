@@ -1,9 +1,9 @@
 {
-    "_ver": 14, 
-    "date": "2017-07-16T10:02:59", 
+    "_ver": 15, 
+    "date": "2017-07-16T21:23:36", 
     "items": [
         {
-            "_ver": 14, 
+            "_ver": 15, 
             "name": "Bitcon", 
             "symbol": "BTC", 
             "website_url": [
@@ -56,6 +56,8 @@
             "blockchain_model": "UTXO", 
             "masternode": false, 
             "masternode_deposit": "NA", 
+            "treasury": false, 
+            "governance": false, 
             "references": {
                 "blockchain_model": [
                     "https://bitcoin.stackexchange.com/a/20623", 
@@ -75,11 +77,17 @@
                     "https://bitcoin.org/en/you-need-to-know", 
                     "https://bitcoin.org/en/protect-your-privacy", 
                     "https://en.bitcoin.it/wiki/Anonymity"
+                ], 
+                "treasury": [
+                    "https://bitcoin.org/bitcoin.pdf"
+                ], 
+                "governance": [
+                    "https://bitcoin.org/bitcoin.pdf"
                 ]
             }
         }, 
         {
-            "_ver": 14, 
+            "_ver": 15, 
             "name": "Ethereum Classic", 
             "symbol": "ETC", 
             "website_url": [
@@ -128,6 +136,8 @@
             "blockchain_model": "account", 
             "masternode": false, 
             "masternode_deposit": "NA", 
+            "treasury": false, 
+            "governance": false, 
             "references": {
                 "blockchain_model": [
                     "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53", 
@@ -173,11 +183,17 @@
                 ], 
                 "tx_anonymity": [
                     "https://www.reddit.com/r/ethereum/comments/3uwo9y/anonymity_in_ethereum/"
+                ], 
+                "treasury": [
+                    "https://github.com/ethereum/wiki/wiki/White-Paper"
+                ], 
+                "governance": [
+                    "https://github.com/ethereum/wiki/wiki/White-Paper"
                 ]
             }
         }, 
         {
-            "_ver": 14, 
+            "_ver": 15, 
             "name": "Ripple", 
             "symbol": "XRP", 
             "website_url": [
@@ -208,6 +224,7 @@
                 "https://github.com/ripple/rippled"
             ], 
             "whitepaper_url": [
+                "https://ripple.com/files/ripple_vision.pdf", 
                 "http://www.ghassankarame.com/ripple.pdf"
             ], 
             "announcement_url": [], 
@@ -226,6 +243,8 @@
             "blockchain_model": "account", 
             "masternode": true, 
             "masternode_deposit": 0, 
+            "treasury": false, 
+            "governance": false, 
             "references": {
                 "tx_min_fee": [
                     "https://ripple.com/build/transaction-cost/"
@@ -245,11 +264,17 @@
                 ], 
                 "tx_anonymity": [
                     "https://petsymposium.org/2017/papers/issue3/paper21-2017-3-source.pdf"
+                ], 
+                "treasury": [
+                    "https://ripple.com/files/ripple_vision.pdf"
+                ], 
+                "governance": [
+                    "https://ripple.com/files/ripple_vision.pdf"
                 ]
             }
         }, 
         {
-            "_ver": 14, 
+            "_ver": 15, 
             "name": "Dash", 
             "symbol": "DASH", 
             "website_url": [
@@ -308,6 +333,8 @@
             "blockchain_model": "UTXO", 
             "masternode": true, 
             "masternode_deposit": 1000, 
+            "treasury": true, 
+            "governance": true, 
             "references": {
                 "genesis_block_date": [
                     "https://chainz.cryptoid.info/dash/block.dws?1.htm"
@@ -354,11 +381,18 @@
                 ], 
                 "tx_anonymity": [
                     "https://www.dash.org/darksend/"
+                ], 
+                "governance": [
+                    "https://www.dash.org/forum/threads/self-sustainable-decentralized-governance-by-blockchain.4708/", 
+                    "https://dashvotetracker.com/"
+                ], 
+                "treasury": [
+                    "https://www.dashtreasury.org/"
                 ]
             }
         }, 
         {
-            "_ver": 14, 
+            "_ver": 15, 
             "name": "Litecoin", 
             "symbol": "LTC", 
             "website_url": [
@@ -412,6 +446,8 @@
             "blockchain_model": "UTXO", 
             "masternode": false, 
             "masternode_deposit": "NA", 
+            "treasury": false, 
+            "governance": false, 
             "references": {
                 "max_supply": [
                     "https://litecoin.info/Litecoin"
@@ -457,11 +493,17 @@
                     "https://bitcoin.org/en/you-need-to-know", 
                     "https://www.reddit.com/r/litecoin/comments/53c0v6/confidential_transaction_for_litecoin/", 
                     "https://bitcoin.stackexchange.com/questions/18946/is-it-possible-to-launder-bitcoin-by-exchanging-it-for-litecoin-and-then-back-to"
+                ], 
+                "treasury": [
+                    "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
+                ], 
+                "governance": [
+                    "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
                 ]
             }
         }, 
         {
-            "_ver": 14, 
+            "_ver": 15, 
             "name": "Ethereum", 
             "symbol": "ETH", 
             "website_url": [
@@ -510,6 +552,8 @@
             "blockchain_model": "account", 
             "masternode": false, 
             "masternode_deposit": "NA", 
+            "treasury": false, 
+            "governance": false, 
             "references": {
                 "blockchain_model": [
                     "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53", 
@@ -526,6 +570,12 @@
                 ], 
                 "tx_anonymity": [
                     "https://www.reddit.com/r/ethereum/comments/3uwo9y/anonymity_in_ethereum/"
+                ], 
+                "treasury": [
+                    "https://github.com/ethereum/wiki/wiki/White-Paper"
+                ], 
+                "governance": [
+                    "https://github.com/ethereum/wiki/wiki/White-Paper"
                 ]
             }
         }
