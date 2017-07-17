@@ -170,3 +170,4 @@ Coins
 * `Litecoin <coin/Litecoin.json>`_
 * `Ethereum Classic <coin/Ethereum_Classic.json>`_
 * `Dash <coin/Dash.json>`_
+* `NEM <coin/NEM.json>`_

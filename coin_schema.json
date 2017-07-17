@@ -213,7 +213,7 @@
         },
         "consensus_type": {
             "type": "string",
-            "enum": ["proof-of-work", "proof-of-stake"]
+            "enum": ["proof-of-work", "proof-of-stake", "proof-of-importance"]
         },
         "blockchain_model_type": {
             "type": "string",
