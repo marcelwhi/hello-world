@@ -53,6 +53,7 @@
     "masternode_deposit": "3M",
     "treasury": true,
     "governance": false,
+    "wikipedia_description": "NEM is a peer-to-peer cryptocurrency and blockchain platform launched on March 31, 2015. Written in Java, with a C++ version in the works, NEM has a stated goal of a wide distribution model and has introduced new features to blockchain technology such as its proof-of-importance (POI) algorithm, multisignature accounts, encrypted messaging, and an Eigentrust++ reputation system. The NEM blockchain software is used in a commercial blockchain called Mijin, which is being tested by financial institutions and private companies in Japan and internationally.",
     "references": {
         "hash_algo": [
             "https://www.nem.io/NEM_techRef.pdf"
@@ -103,6 +104,9 @@
         ],
         "blockchain_model": [
             "https://www.nem.io/NEM_techRef.pdf"
+        ],
+        "wikipedia_description": [
+            "https://en.wikipedia.org/wiki/NEM_(cryptocurrency)"
         ]
 
     }

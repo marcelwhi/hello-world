@@ -49,6 +49,7 @@
     "masternode_deposit": "NA",
     "treasury": false,
     "governance": false,
+    "wikipedia_description": "Ethereum Classic is an open-source, public, blockchain-based distributed computing platform featuring smart contract (scripting) functionality. It provides a decentralized Turing-complete virtual machine, the Ethereum Virtual Machine (EVM), which can execute scripts using an international network of public nodes. Ethereum Classic also provides a value token called \"classic ether\", which can be transferred between participants and is used to compensate participant nodes for computations performed. The classic ether token is traded on cryptocurrency exchanges under the code ETC. Gas, an internal transaction pricing mechanism, is used to prevent spam on the network and allocate resources proportionally to the incentive offered by the request.",
     "references": {
         "blockchain_model": [
             "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53",
@@ -100,6 +101,9 @@
         ],
         "governance": [
             "https://github.com/ethereum/wiki/wiki/White-Paper"
+        ],
+        "wikipedia_description": [
+            "https://en.wikipedia.org/wiki/Ethereum_Classic"
         ]
     }
 }

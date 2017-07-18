@@ -59,6 +59,7 @@
     "masternode_deposit": 1000,
     "treasury": true,
     "governance": true,
+    "wikipedia_description": "Dash (formerly known as Darkcoin and XCoin) is an open source peer-to-peer cryptocurrency that offers all the same features as Bitcoin but also has advanced capabilities, including instant transactions (InstantSend), private transactions (PrivateSend), and decentralized governance (DGBB). Dash's decentralized governance and budgeting system makes it the first decentralized autonomous organization. Dash uses a two-tier architecture to power its network. The first tier consists of miners who secure the network and write transactions to the blockchain. The second tier consists of masternodes which enable the advanced features of Dash.",
     "references": {
         "genesis_block_date": [
             "https://chainz.cryptoid.info/dash/block.dws?1.htm"
@@ -112,6 +113,9 @@
         ],
         "treasury": [
             "https://www.dashtreasury.org/"
+        ],
+        "wikipedia_description": [
+            "https://en.wikipedia.org/wiki/Dash_(cryptocurrency)"
         ]
     }
 }

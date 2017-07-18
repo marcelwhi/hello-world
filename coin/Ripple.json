@@ -50,6 +50,7 @@
     "masternode_deposit": 0,
     "treasury": false,
     "governance": false,
+    "wikipedia_description": "Ripple is a real-time gross settlement system (RTGS), currency exchange and remittance network by Ripple. Also called the Ripple Transaction Protocol (RTXP) or Ripple protocol, it is built upon a distributed open source Internet protocol, consensus ledger and native currency called XRP (ripples). Released in 2012, Ripple purports to enable \"secure, instant and nearly free global financial transactions of any size with no chargebacks.\" It supports tokens representing fiat currency, cryptocurrency, commodity or any other unit of value such as frequent flier miles or mobile minutes. At its core, Ripple is based around a shared, public database or ledger, which uses a consensus process that allows for payments, exchanges and remittance in a distributed process. In 2014, Ripple defended the security of its consensus algorithm against rival Stellar Network. Currently, Ripple is the third-largest cryptocurrency by market capitalization, after bitcoin and Ethereum. Used by companies such as UniCredit, UBS and Santander, the Ripple protocol has been increasingly adopted by banks and payment networks as settlement infrastructure technology, with American Banker explaining that \"from banks' perspective, distributed ledgers like the Ripple system have a number of advantages over cryptocurrencies like bitcoin,\" including price and security.",
     "references": {
         "tx_min_fee": [
             "https://ripple.com/build/transaction-cost/"
@@ -75,6 +76,9 @@
         ],
         "governance": [
             "https://ripple.com/files/ripple_vision.pdf"
+        ],
+        "wikipedia_description": [
+            "https://en.wikipedia.org/wiki/Ripple_(payment_protocol)"
         ]
     }
 }

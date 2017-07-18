@@ -124,6 +124,9 @@
         "governance": {
             "$ref": "#/definitions/extended_boolean"
         },
+        "wikipedia_description": {
+            "$ref": "#/definitions/extended_string"
+        },
         "references": {
             "type": "object",
             "properties": {
@@ -156,7 +159,8 @@
                 "masternode": {"$ref": "#/definitions/list-of-urls"},
                 "masternode_deposit": {"$ref": "#/definitions/list-of-urls"},
                 "treasury": {"$ref": "#/definitions/list-of-urls"},
-                "governance": {"$ref": "#/definitions/list-of-urls"}
+                "governance": {"$ref": "#/definitions/list-of-urls"},
+                "wikipedia_description": {"$ref": "#/definitions/list-of-urls"}
             },
             "additionalProperties": false
         }
@@ -181,6 +185,17 @@
             "oneOf": [
                 {
                     "type": "boolean"
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
+        },
+        "extended_string": {
+            "oneOf": [
+                {
+                    "type": "string"
                 },
                 {
                     "type": "string",
@@ -261,7 +276,8 @@
         "masternode",
         "masternode_deposit",
         "treasury",
-        "governance"
+        "governance",
+        "wikipedia_description"
     ]
 }
 

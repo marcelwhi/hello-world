@@ -1,5 +1,5 @@
 {
-    "name": "Bitcon",
+    "name": "Bitcoin",
     "symbol": "BTC",
     "website_url": [
         "https://bitcoin.org",
@@ -53,6 +53,7 @@
     "masternode_deposit": "NA",
     "treasury": false,
     "governance": false,
+    "wikipedia_description": "Bitcoin is a cryptocurrency and a digital payment system invented by an unknown programmer, or a group of programmers, under the name Satoshi Nakamoto. It was released as open-source software in 2009. The system is peer-to-peer, and transactions take place between users directly, without an intermediary. These transactions are verified by network nodes and recorded in a public distributed ledger called a blockchain. Since the system works without a central repository or single administrator, bitcoin is called the first decentralized digital currency. Besides being created as a reward for mining, bitcoin can be exchanged for other currencies, products, and services in legal or black markets. As of February 2015, over 100,000 merchants and vendors accepted bitcoin as payment. According to research produced by Cambridge University in 2017, there are 2.9 to 5.8 million unique users using a cryptocurrency wallet, most of them using bitcoin.",
     "references": {
         "blockchain_model": [
             "https://bitcoin.stackexchange.com/a/20623",

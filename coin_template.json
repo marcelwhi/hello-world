@@ -29,6 +29,7 @@
     "masternode_deposit": "num",
     "treasury": "bool",
     "governance": "bool",
+    "wikipedia_description": "str",
     "references": {
         "property-name": "list-of-urls"
     }

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from subprocess import check_call
 import json
 import shutil
@@ -21,7 +21,8 @@ CONST_KEYS = (
     'masternode', 'smart_contracts', 'lighning_network',
     'blockchain_model', 'announcement_url',
     "masternode", "masternode_deposit",
-    "tx_anonymity", "treasury", "governance"
+    "tx_anonymity", "treasury", "governance",
+    "wikipedia_description"
 )
 NUM_KEYS = (
     'max_supply', 'block_time', 'block_reward',

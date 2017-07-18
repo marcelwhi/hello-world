@@ -49,6 +49,7 @@
     "masternode_deposit": "NA",
     "treasury": false,
     "governance": false,
+    "wikipedia_description": "Ethereum is an open-source, public, blockchain-based distributed computing platform featuring smart contract (scripting) functionality, which facilitates online contractual agreements. It provides a decentralized Turing-complete virtual machine, the Ethereum Virtual Machine (EVM), which can execute scripts using an international network of public nodes. Ethereum also provides a cryptocurrency  token called \"ether\", which can be transferred between accounts and used to compensate participant nodes for computations performed. \"Gas\", an internal transaction pricing mechanism, is used to mitigate spam and allocate resources on the network. Ethereum was proposed in late 2013 by Vitalik Buterin, a cryptocurrency researcher and programmer. Development was funded by an online crowdsale during July–August 2014. The system went live on 30 July 2015, with 11.9 million coins \"premined\" for the crowdsale. This accounts for approximately 13 percent of the total circulating supply. In 2016 Ethereum was forked into two blockchains, as a result of the collapse of The DAO project. The majority fork has retained the name Ethereum (the subject of this article), and the second fork named Ethereum Classic.",
     "references": {
         "blockchain_model": [
             "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53",
@@ -71,6 +72,9 @@
         ],
         "governance": [
             "https://github.com/ethereum/wiki/wiki/White-Paper"
+        ],
+        "wikipedia_description": [
+            "https://en.wikipedia.org/wiki/Ethereum"
         ]
     }
 }
