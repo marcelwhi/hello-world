@@ -20,14 +20,14 @@ CONST_KEYS = (
     'references', 'lightning_network',
     'masternode', 'smart_contracts', 'lighning_network',
     'blockchain_model', 'announcement_url',
-    "masternode", "masternode_deposit",
+    "masternode",
     "tx_anonymity", "treasury", "governance",
     "wikipedia_description"
 )
 NUM_KEYS = (
     'max_supply', 'block_time', 'block_reward',
     'tx_per_second', 'tx_min_fee',
-    'musternode_supply',
+    "masternode_deposit",
 )
 SIZE_KEYS = (
     'block_max_size',

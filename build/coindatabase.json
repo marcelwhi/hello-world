@@ -1,9 +1,9 @@
 {
-    "_ver": 18,
-    "date": "2017-07-18T00:40:51",
+    "_ver": 19,
+    "date": "2017-07-19T09:24:30",
     "items": [
         {
-            "_ver": 18,
+            "_ver": 19,
             "name": "NEM",
             "symbol": "XEM",
             "website_url": [
@@ -55,7 +55,7 @@
             "smart_contracts": "limited",
             "blockchain_model": "account",
             "masternode": true,
-            "masternode_deposit": "3M",
+            "masternode_deposit": 3000000,
             "treasury": true,
             "governance": false,
             "wikipedia_description": "NEM is a peer-to-peer cryptocurrency and blockchain platform launched on March 31, 2015. Written in Java, with a C++ version in the works, NEM has a stated goal of a wide distribution model and has introduced new features to blockchain technology such as its proof-of-importance (POI) algorithm, multisignature accounts, encrypted messaging, and an Eigentrust++ reputation system. The NEM blockchain software is used in a commercial blockchain called Mijin, which is being tested by financial institutions and private companies in Japan and internationally.",
@@ -113,7 +113,7 @@
             }
         },
         {
-            "_ver": 18,
+            "_ver": 19,
             "name": "Bitcoin",
             "symbol": "BTC",
             "website_url": [
@@ -198,7 +198,7 @@
             }
         },
         {
-            "_ver": 18,
+            "_ver": 19,
             "name": "Ethereum Classic",
             "symbol": "ETC",
             "website_url": [
@@ -308,7 +308,7 @@
             }
         },
         {
-            "_ver": 18,
+            "_ver": 19,
             "name": "Ripple",
             "symbol": "XRP",
             "website_url": [
@@ -393,7 +393,7 @@
             }
         },
         {
-            "_ver": 18,
+            "_ver": 19,
             "name": "Dash",
             "symbol": "DASH",
             "website_url": [
@@ -515,7 +515,7 @@
             }
         },
         {
-            "_ver": 18,
+            "_ver": 19,
             "name": "Litecoin",
             "symbol": "LTC",
             "website_url": [
@@ -630,7 +630,7 @@
             }
         },
         {
-            "_ver": 18,
+            "_ver": 19,
             "name": "Ethereum",
             "symbol": "ETH",
             "website_url": [
