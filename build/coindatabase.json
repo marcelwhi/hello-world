@@ -1,9 +1,9 @@
 {
-    "_ver": 19,
-    "date": "2017-07-19T09:24:30",
+    "_ver": 20,
+    "date": "2017-07-26T11:13:47",
     "items": [
         {
-            "_ver": 19,
+            "_ver": 20,
             "name": "NEM",
             "symbol": "XEM",
             "website_url": [
@@ -113,7 +113,7 @@
             }
         },
         {
-            "_ver": 19,
+            "_ver": 20,
             "name": "Bitcoin",
             "symbol": "BTC",
             "website_url": [
@@ -122,7 +122,8 @@
             ],
             "blockchain_explorer_url": [
                 "https://blockchain.info",
-                "https://chainquery.com/bitcoin-api"
+                "https://chainquery.com/bitcoin-api",
+                "https://www.walletexplorer.com"
             ],
             "nodes_explorer_url": [
                 "https://coin.dance/nodes",
@@ -198,7 +199,7 @@
             }
         },
         {
-            "_ver": 19,
+            "_ver": 20,
             "name": "Ethereum Classic",
             "symbol": "ETC",
             "website_url": [
@@ -308,7 +309,7 @@
             }
         },
         {
-            "_ver": 19,
+            "_ver": 20,
             "name": "Ripple",
             "symbol": "XRP",
             "website_url": [
@@ -393,7 +394,7 @@
             }
         },
         {
-            "_ver": 19,
+            "_ver": 20,
             "name": "Dash",
             "symbol": "DASH",
             "website_url": [
@@ -515,7 +516,7 @@
             }
         },
         {
-            "_ver": 19,
+            "_ver": 20,
             "name": "Litecoin",
             "symbol": "LTC",
             "website_url": [
@@ -630,7 +631,7 @@
             }
         },
         {
-            "_ver": 19,
+            "_ver": 20,
             "name": "Ethereum",
             "symbol": "ETH",
             "website_url": [
