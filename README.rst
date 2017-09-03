@@ -21,8 +21,6 @@ data.
 There is a telegram bot `@coindatabase_bot <https://t.me/coindatabase_bot>`_. You can use it to get access to
 coindatabse.
 
-Also you can get access to data via website `coindatabase.io <http://coindatabase.io>`_
-
 
 How to add new coin
 -------------------
