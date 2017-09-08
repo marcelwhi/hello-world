@@ -18,9 +18,6 @@ This database would be useful to all people studying the crypto world.
 Feel free to submit pull requests with new coins or corrections of existing
 data.
 
-There is a telegram bot `@coindatabase_bot <https://t.me/coindatabase_bot>`_. You can use it to get access to
-coindatabse.
-
 
 How to add new coin
 -------------------
